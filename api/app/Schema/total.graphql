@@ -1,0 +1,78 @@
+schema {
+  query: Query
+}
+
+input WhereInt {
+  eq: Int
+  neq: Int
+  gt: Int
+  lt: Int
+  gte: Int
+  lte: Int
+  in: [Int!]
+  nin: [Int!]
+  eq: String
+  neq: String
+  gt: String
+  lt: String
+  gte: String
+  lte: String
+  in: [String!]
+  nin: [String!]
+  is_null: Boolean
+}
+
+input WhereString {
+  like: String
+  nlike: String
+  regex: String
+  eq: String
+  neq: String
+  gt: String
+  lt: String
+  gte: String
+  lte: String
+  in: [String!]
+  nin: [String!]
+  is_null: Boolean
+}
+
+input OrderBy {
+  desc: String
+  asc: String
+}
+
+input Join {
+  inner: String
+  left: String
+}
+
+type Character {
+  id: ID!
+  idCharacter: ID!
+  name: String
+  mass: Int
+  createdAt(format: String): String
+  updatedAt(format: String): String
+}
+
+input WhereCharacter {
+  or: WhereCharacter
+  and: WhereCharacter
+  name: WhereString
+  mass: WhereInt
+  createdAt: WhereString
+  updatedAt: WhereString
+}
+
+type Query {
+  characters(
+    id: ID,
+    limit: Int,
+    offset: Int
+    order_by: [OrderBy!]
+    group: [String!]
+    join: [Join!]
+    where: WhereCharacter
+  ): [Character!]!
+}

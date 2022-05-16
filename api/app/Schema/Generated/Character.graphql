@@ -1,0 +1,31 @@
+type Character {
+  id: ID!
+  idCharacter: ID!
+  name: String
+  mass: Int
+  createdAt(format: String): String
+  updatedAt(format: String): String
+}
+
+Query {
+  characters(
+    id: ID, 
+    limit: Int,
+    offset: Int
+    order_by: [OrderBy!]
+    group: [String!]
+    join: [Join!]
+    where: WhereCharacter
+  ): [Character!]!
+}
+
+type WhereCharacter {
+  or: WhereCharacter
+  and: WhereCharacter
+  idCharacter: WhereID
+  name: WhereString
+  mass: WhereInt
+  createdAt: WhereString
+  updatedAt: WhereString
+}
+

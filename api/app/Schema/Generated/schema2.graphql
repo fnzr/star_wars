@@ -1,0 +1,40 @@
+type Character {
+  idCharacter: ID!
+  name: String
+  mass: Int
+  createdAt: String
+  updatedAt: String
+}
+
+input WhereBind {
+  eq: String
+  neq: String
+  gt: String
+  lt: String
+  gte: String
+  lte: String
+  in: [String!]
+  nin: [String!]
+}
+
+input WhereIntBase {
+  eq: Int
+  neq: Int
+  gt: Int
+  lt: Int
+  gte: Int
+  lte: Int
+  in: [Int!]
+  nin: [Int!]
+}
+
+
+union WhereInt = WhereIntBase | WhereBind
+
+input WhereStringBase {
+  like: String
+  nlike: String
+  regex: String
+}
+
+union WhereString = WhereStringBase | WhereBind

@@ -1,0 +1,54 @@
+schema {
+  query: Query
+}
+
+input WhereBind {
+  eq: String
+  neq: String
+  gt: String
+  lt: String
+  gte: String
+  lte: String
+  in: [String!]
+  nin: [String!]
+  is_null: Boolean
+}
+
+input WhereIntBase {
+  eq: Int
+  neq: Int
+  gt: Int
+  lt: Int
+  gte: Int
+  lte: Int
+  in: [Int!]
+  nin: [Int!]
+}
+
+union WhereInt = WhereIntBase | WhereBind
+
+input WhereStringBase {
+  like: String
+  nlike: String
+  regex: String
+}
+
+union WhereString = WhereStringBase | WhereBind
+
+type OrderByAsc {
+  asc: String
+}
+type OrderByDesc {
+  desc: String
+}
+union OrderBy = OrderByAsc | OrderByDesc
+
+type LeftJoin {
+  left: String
+}
+
+type InnerJoin {
+  inner: String
+}
+
+union Join = LeftJoin | InnerJoin

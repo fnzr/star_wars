@@ -1,0 +1,2727 @@
+{
+"results" : [
+
+  {
+    "objectId": "nxpAPnATEb",
+    "name": "Obi-Wan Kenobi",
+    "gender": "male",
+    "skinColor": "fair",
+    "hairColor": "auburn, white",
+    "height": 182,
+    "eyeColor": "blue-gray",
+    "mass": 77,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "Fwz1bh8rSD"
+    },
+    "birthYear": "57BBY",
+    "createdAt": "2019-12-13T19:42:31.498Z",
+    "updatedAt": "2019-12-13T19:42:36.281Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "2INvsFHinF",
+    "name": "Leia Organa",
+    "gender": "female",
+    "skinColor": "light",
+    "hairColor": "brown",
+    "height": 150,
+    "eyeColor": "brown",
+    "mass": 49,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "43NzGsaO90"
+    },
+    "birthYear": "19BBY",
+    "createdAt": "2019-12-13T19:42:31.622Z",
+    "updatedAt": "2019-12-13T19:42:36.281Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "FHPqlIexEv",
+    "name": "Wicket Systri Warrick",
+    "gender": "male",
+    "skinColor": "brown",
+    "hairColor": "brown",
+    "height": 88,
+    "eyeColor": "brown",
+    "mass": 20,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "XkKWE6DYG2"
+    },
+    "birthYear": "8BBY",
+    "createdAt": "2019-12-13T19:42:31.663Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "u1kwpbPJPA",
+    "name": "C-3PO",
+    "gender": null,
+    "skinColor": "gold",
+    "hairColor": null,
+    "height": 167,
+    "eyeColor": "yellow",
+    "mass": 75,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "PL36fSGLoW"
+    },
+    "birthYear": "112BBY",
+    "createdAt": "2019-12-13T19:42:31.511Z",
+    "updatedAt": "2019-12-13T19:42:36.281Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "3dtywptX5F",
+    "name": "R2-D2",
+    "gender": null,
+    "skinColor": "white, blue",
+    "hairColor": null,
+    "height": 96,
+    "eyeColor": "red",
+    "mass": 32,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "6EhvyQR6tl"
+    },
+    "birthYear": "33BBY",
+    "createdAt": "2019-12-13T19:42:31.681Z",
+    "updatedAt": "2019-12-13T19:42:36.281Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "1bnytxJvoC",
+    "name": "Beru Whitesun lars",
+    "gender": "female",
+    "skinColor": "light",
+    "hairColor": "brown",
+    "height": 165,
+    "eyeColor": "blue",
+    "mass": 75,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "PL36fSGLoW"
+    },
+    "birthYear": "47BBY",
+    "createdAt": "2019-12-13T19:42:31.649Z",
+    "updatedAt": "2019-12-13T19:42:36.281Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "oL9jCiMoLI",
+    "name": "Padmé Amidala",
+    "gender": "female",
+    "skinColor": "light",
+    "hairColor": "brown",
+    "height": 185,
+    "eyeColor": "brown",
+    "mass": 45,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "6EhvyQR6tl"
+    },
+    "birthYear": "46BBY",
+    "createdAt": "2019-12-13T19:42:31.669Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "GtJFN6i9Jo",
+    "name": "Owen Lars",
+    "gender": "male",
+    "skinColor": "light",
+    "hairColor": "brown, grey",
+    "height": 178,
+    "eyeColor": "blue",
+    "mass": 120,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "PL36fSGLoW"
+    },
+    "birthYear": "52BBY",
+    "createdAt": "2019-12-13T19:42:31.552Z",
+    "updatedAt": "2019-12-13T19:42:36.281Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "gCL58ti9rQ",
+    "name": "Bib Fortuna",
+    "gender": "male",
+    "skinColor": "pale",
+    "hairColor": "none",
+    "height": 180,
+    "eyeColor": "pink",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "hLoKcYf27J"
+    },
+    "createdAt": "2019-12-13T19:42:31.569Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "C5Ar7rTHAz",
+    "name": "Nien Nunb",
+    "gender": "male",
+    "skinColor": "grey",
+    "hairColor": "none",
+    "height": 160,
+    "eyeColor": "black",
+    "mass": 68,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "BHaIFQtv7i"
+    },
+    "createdAt": "2019-12-13T19:42:31.613Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "vaOWPFwVEq",
+    "name": "Grievous",
+    "gender": "male",
+    "skinColor": "brown, white",
+    "hairColor": "none",
+    "height": 216,
+    "eyeColor": "green, yellow",
+    "mass": 159,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "FR8HGCrbyi"
+    },
+    "createdAt": "2019-12-13T19:42:31.780Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "0vkKBoC2mB",
+    "name": "Taun We",
+    "gender": "female",
+    "skinColor": "grey",
+    "hairColor": "none",
+    "height": 213,
+    "eyeColor": "black",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "z2uJ1N7RUj"
+    },
+    "createdAt": "2019-12-13T19:42:31.744Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "wdewqb9hu5",
+    "name": "Boba Fett",
+    "gender": "male",
+    "skinColor": "fair",
+    "hairColor": "black",
+    "height": 183,
+    "eyeColor": "brown",
+    "mass": 78.2,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "z2uJ1N7RUj"
+    },
+    "birthYear": "31.5BBY",
+    "createdAt": "2019-12-13T19:42:31.630Z",
+    "updatedAt": "2019-12-13T19:42:36.469Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "gyZon7lc9S",
+    "name": "Mas Amedda",
+    "gender": "male",
+    "skinColor": "blue",
+    "hairColor": "none",
+    "height": 196,
+    "eyeColor": "blue",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "4m1OB1jIjC"
+    },
+    "createdAt": "2019-12-13T19:42:31.755Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "OVh4Yg0wfz",
+    "name": "Lobot",
+    "gender": "male",
+    "skinColor": "light",
+    "hairColor": "none",
+    "height": 175,
+    "eyeColor": "blue",
+    "mass": 79,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "vGTILbhPdN"
+    },
+    "birthYear": "37BBY",
+    "createdAt": "2019-12-13T19:42:31.759Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "iGdx5UYmNU",
+    "name": "Wat Tambor",
+    "gender": "male",
+    "skinColor": "green, grey",
+    "hairColor": "none",
+    "height": 193,
+    "mass": 48,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "81Z42snwmA"
+    },
+    "createdAt": "2019-12-13T19:42:31.664Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "GDiOUvFWpg",
+    "name": "Sly Moore",
+    "gender": "female",
+    "skinColor": "pale",
+    "hairColor": "none",
+    "height": 178,
+    "eyeColor": "white",
+    "mass": 48,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "LmdXkjBVMi"
+    },
+    "createdAt": "2019-12-13T19:42:31.773Z",
+    "updatedAt": "2019-12-13T19:42:36.936Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "LeJqCLjGzL",
+    "name": "Biggs Darklighter",
+    "gender": "male",
+    "skinColor": "light",
+    "hairColor": "black",
+    "height": 183,
+    "eyeColor": "brown",
+    "mass": 84,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "PL36fSGLoW"
+    },
+    "birthYear": "24BBY",
+    "createdAt": "2019-12-13T19:42:31.810Z",
+    "updatedAt": "2019-12-13T19:42:36.281Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "7aWfTTVBst",
+    "name": "Zam Wesell",
+    "gender": "female",
+    "skinColor": "fair, green, yellow",
+    "hairColor": "blonde",
+    "height": 168,
+    "eyeColor": "yellow",
+    "mass": 55,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "RWSfQanzkC"
+    },
+    "createdAt": "2019-12-13T19:42:31.811Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "0teUVBC5WU",
+    "name": "Darth Vader",
+    "gender": "male",
+    "skinColor": "white",
+    "hairColor": "none",
+    "height": 202,
+    "eyeColor": "yellow",
+    "mass": 136,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "PL36fSGLoW"
+    },
+    "birthYear": "41.9BBY",
+    "createdAt": "2019-12-13T19:42:31.669Z",
+    "updatedAt": "2019-12-13T19:42:36.281Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "6o86LGdASP",
+    "name": "Yarael Poof",
+    "gender": "male",
+    "skinColor": "white",
+    "hairColor": "none",
+    "height": 264,
+    "eyeColor": "yellow",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "ICyD92JiTe"
+    },
+    "createdAt": "2019-12-13T19:42:31.672Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "UfuAjFNzgc",
+    "name": "Lama Su",
+    "gender": "male",
+    "skinColor": "grey",
+    "hairColor": "none",
+    "height": 229,
+    "eyeColor": "black",
+    "mass": 88,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "z2uJ1N7RUj"
+    },
+    "createdAt": "2019-12-13T19:42:31.659Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "CE5mHKOuZd",
+    "name": "Palpatine",
+    "gender": "male",
+    "skinColor": "pale",
+    "hairColor": "grey",
+    "height": 170,
+    "eyeColor": "yellow",
+    "mass": 75,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "6EhvyQR6tl"
+    },
+    "birthYear": "82BBY",
+    "createdAt": "2019-12-13T19:42:31.663Z",
+    "updatedAt": "2019-12-13T19:42:36.282Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "9Lu3hWBWxa",
+    "name": "Tarfful",
+    "gender": "male",
+    "skinColor": "brown",
+    "hairColor": "brown",
+    "height": 234,
+    "eyeColor": "blue",
+    "mass": 136,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "EvtUWbZuHM"
+    },
+    "createdAt": "2019-12-13T19:42:31.661Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "QnjNjWUB9p",
+    "name": "Dexter Jettster",
+    "gender": "male",
+    "skinColor": "brown",
+    "hairColor": "none",
+    "height": 198,
+    "eyeColor": "yellow",
+    "mass": 102,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "gAy3fHM7d2"
+    },
+    "createdAt": "2019-12-13T19:42:31.823Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "6sE2oKoUzf",
+    "name": "Tion Medon",
+    "gender": "male",
+    "skinColor": "grey",
+    "hairColor": "none",
+    "height": 206,
+    "eyeColor": "black",
+    "mass": 80,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "3M3m6D09tw"
+    },
+    "createdAt": "2019-12-13T19:42:31.786Z",
+    "updatedAt": "2019-12-13T19:42:36.936Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "OzKSDT3MuT",
+    "name": "Poggle the Lesser",
+    "gender": "male",
+    "skinColor": "green",
+    "hairColor": "none",
+    "height": 183,
+    "eyeColor": "yellow",
+    "mass": 80,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "nn4RvL2myQ"
+    },
+    "createdAt": "2019-12-13T19:42:31.682Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "ASUKSjTyGL",
+    "name": "Jek Tono Porkins",
+    "gender": "male",
+    "skinColor": "fair",
+    "hairColor": "brown",
+    "height": 180,
+    "eyeColor": "blue",
+    "mass": 110,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "VVWsTazBP0"
+    },
+    "createdAt": "2019-12-13T19:42:31.826Z",
+    "updatedAt": "2019-12-13T19:42:36.282Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "DT85pY7jMm",
+    "name": "Raymus Antilles",
+    "gender": "male",
+    "skinColor": "light",
+    "hairColor": "brown",
+    "height": 188,
+    "eyeColor": "brown",
+    "mass": 79,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "43NzGsaO90"
+    },
+    "createdAt": "2019-12-13T19:42:31.681Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "qLgUk6I4jh",
+    "name": "Watto",
+    "gender": "male",
+    "skinColor": "blue, grey",
+    "hairColor": "black",
+    "height": 137,
+    "eyeColor": "yellow",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "nFLrjhrAnU"
+    },
+    "createdAt": "2019-12-13T19:42:31.793Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "KXxAhWYcms",
+    "name": "Jar Jar Binks",
+    "gender": "male",
+    "skinColor": "orange",
+    "hairColor": "none",
+    "height": 196,
+    "eyeColor": "orange",
+    "mass": 66,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "6EhvyQR6tl"
+    },
+    "birthYear": "52BBY",
+    "createdAt": "2019-12-13T19:42:31.673Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "uFjDJRxIRO",
+    "name": "Han Solo",
+    "gender": "male",
+    "skinColor": "fair",
+    "hairColor": "brown",
+    "height": 180,
+    "eyeColor": "brown",
+    "mass": 80,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "eukAnISjbt"
+    },
+    "birthYear": "29BBY",
+    "createdAt": "2019-12-13T19:42:31.688Z",
+    "updatedAt": "2019-12-13T19:42:36.282Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "VHNcHrqIkC",
+    "name": "Sebulba",
+    "gender": "male",
+    "skinColor": "grey, red",
+    "hairColor": "none",
+    "height": 112,
+    "eyeColor": "orange",
+    "mass": 40,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "71987spC7M"
+    },
+    "createdAt": "2019-12-13T19:42:31.829Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "BWtaxWrsSy",
+    "name": "Rugor Nass",
+    "gender": "male",
+    "skinColor": "green",
+    "hairColor": "none",
+    "height": 206,
+    "eyeColor": "orange",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "6EhvyQR6tl"
+    },
+    "createdAt": "2019-12-13T19:42:31.830Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "9ydEn9uEPr",
+    "name": "Luminara Unduli",
+    "gender": "female",
+    "skinColor": "yellow",
+    "hairColor": "black",
+    "height": 170,
+    "eyeColor": "blue",
+    "mass": 56.2,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "OasAWgeN2p"
+    },
+    "birthYear": "58BBY",
+    "createdAt": "2019-12-13T19:42:31.837Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "aHi8DkVdCL",
+    "name": "Shaak Ti",
+    "gender": "female",
+    "skinColor": "red, blue, white",
+    "hairColor": "none",
+    "height": 178,
+    "eyeColor": "black",
+    "mass": 57,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "Xu82yRBXgZ"
+    },
+    "createdAt": "2019-12-13T19:42:31.681Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "VkGbeqSDEd",
+    "name": "Yoda",
+    "gender": "male",
+    "skinColor": "green",
+    "hairColor": "white",
+    "height": 66,
+    "eyeColor": "brown",
+    "mass": 17,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "udrPy9AkhD"
+    },
+    "birthYear": "896BBY",
+    "createdAt": "2019-12-13T19:42:31.801Z",
+    "updatedAt": "2019-12-13T19:42:36.282Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "xdyCPBdU5q",
+    "name": "Shmi Skywalker",
+    "gender": "female",
+    "skinColor": "fair",
+    "hairColor": "black",
+    "height": 163,
+    "eyeColor": "brown",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "PL36fSGLoW"
+    },
+    "birthYear": "72BBY",
+    "createdAt": "2019-12-13T19:42:31.802Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "OPaE40IScs",
+    "name": "Lando Calrissian",
+    "gender": "male",
+    "skinColor": "dark",
+    "hairColor": "black",
+    "height": 177,
+    "eyeColor": "brown",
+    "mass": 79,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "MkXwqjoOVG"
+    },
+    "birthYear": "31BBY",
+    "createdAt": "2019-12-13T19:42:31.684Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "FGL7xipkOO",
+    "name": "Ben Quadinaros",
+    "gender": "male",
+    "skinColor": "grey, green, yellow",
+    "hairColor": "none",
+    "height": 163,
+    "eyeColor": "orange",
+    "mass": 65,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "AQHJndEr19"
+    },
+    "createdAt": "2019-12-13T19:42:31.807Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "k9aoLmL6df",
+    "name": "Nute Gunray",
+    "gender": "male",
+    "skinColor": "mottled green",
+    "hairColor": "none",
+    "height": 191,
+    "eyeColor": "red",
+    "mass": 90,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "Jt7sJ8ZI7t"
+    },
+    "createdAt": "2019-12-13T19:42:31.691Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "a2CEYyEWfF",
+    "name": "Ackbar",
+    "gender": "male",
+    "skinColor": "brown mottle",
+    "hairColor": "none",
+    "height": 180,
+    "eyeColor": "orange",
+    "mass": 83,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "EY3gbE2taR"
+    },
+    "birthYear": "41BBY",
+    "createdAt": "2019-12-13T19:42:31.811Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "tsKWrvOV89",
+    "name": "Dooku",
+    "gender": "male",
+    "skinColor": "fair",
+    "hairColor": "white",
+    "height": 193,
+    "eyeColor": "brown",
+    "mass": 80,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "T37misMaSB"
+    },
+    "birthYear": "102BBY",
+    "createdAt": "2019-12-13T19:42:31.853Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "E50udf4uQE",
+    "name": "Mace Windu",
+    "gender": "male",
+    "skinColor": "dark",
+    "hairColor": "none",
+    "height": 188,
+    "eyeColor": "brown",
+    "mass": 84,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "nKFt540DDl"
+    },
+    "birthYear": "72BBY",
+    "createdAt": "2019-12-13T19:42:31.721Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "JFC94Dkuke",
+    "name": "IG-88",
+    "gender": "none",
+    "skinColor": "metal",
+    "hairColor": "none",
+    "height": 200,
+    "eyeColor": "red",
+    "mass": 140,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "udrPy9AkhD"
+    },
+    "birthYear": "15BBY",
+    "createdAt": "2019-12-13T19:42:31.716Z",
+    "updatedAt": "2019-12-13T19:42:36.469Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "KpigKjIB6J",
+    "name": "Anakin Skywalker",
+    "gender": "male",
+    "skinColor": "fair",
+    "hairColor": "blond",
+    "height": 188,
+    "eyeColor": "blue",
+    "mass": 84,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "PL36fSGLoW"
+    },
+    "birthYear": "41.9BBY",
+    "createdAt": "2019-12-13T19:42:31.837Z",
+    "updatedAt": "2019-12-13T19:42:36.281Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "NEvDrgJ1l8",
+    "name": "Wilhuff Tarkin",
+    "gender": "male",
+    "skinColor": "fair",
+    "hairColor": "auburn, grey",
+    "height": 180,
+    "eyeColor": "blue",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "mgbTNcGfBu"
+    },
+    "birthYear": "64BBY",
+    "createdAt": "2019-12-13T19:42:31.873Z",
+    "updatedAt": "2019-12-13T19:42:36.281Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "WoqNGersBy",
+    "name": "Plo Koon",
+    "gender": "male",
+    "skinColor": "orange",
+    "hairColor": "none",
+    "height": 188,
+    "eyeColor": "black",
+    "mass": 80,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "amNSuY5YKH"
+    },
+    "birthYear": "22BBY",
+    "createdAt": "2019-12-13T19:42:31.736Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "laadAzRTGc",
+    "name": "Ric Olié",
+    "gender": "male",
+    "skinColor": "fair",
+    "hairColor": "brown",
+    "height": 183,
+    "eyeColor": "blue",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "6EhvyQR6tl"
+    },
+    "createdAt": "2019-12-13T19:42:31.945Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "G4s2waH7wE",
+    "name": "Eeth Koth",
+    "gender": "male",
+    "skinColor": "brown",
+    "hairColor": "black",
+    "height": 171,
+    "eyeColor": "brown",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "1YfnDESFrB"
+    },
+    "createdAt": "2019-12-13T19:42:31.964Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "LPEUlwy4RJ",
+    "name": "Luke Skywalker",
+    "gender": "male",
+    "skinColor": "fair",
+    "hairColor": "blond",
+    "height": 172,
+    "eyeColor": "blue",
+    "mass": 77,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "PL36fSGLoW"
+    },
+    "birthYear": "19BBY",
+    "createdAt": "2019-12-13T19:42:31.965Z",
+    "updatedAt": "2019-12-13T19:42:36.281Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "Pzb5344m9Q",
+    "name": "Gregar Typho",
+    "gender": "male",
+    "skinColor": "dark",
+    "hairColor": "black",
+    "height": 185,
+    "eyeColor": "brown",
+    "mass": 85,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "6EhvyQR6tl"
+    },
+    "createdAt": "2019-12-13T19:42:31.972Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "dKlPZIXAYT",
+    "name": "Jocasta Nu",
+    "gender": "female",
+    "skinColor": "fair",
+    "hairColor": "white",
+    "height": 167,
+    "eyeColor": "blue",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "AmxEngCKLr"
+    },
+    "createdAt": "2019-12-13T19:42:31.834Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "soYe1MeBeb",
+    "name": "Arvel Crynyd",
+    "gender": "male",
+    "skinColor": "fair",
+    "hairColor": "brown",
+    "eyeColor": "brown",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "udrPy9AkhD"
+    },
+    "createdAt": "2019-12-13T19:42:31.963Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "P5lWMFInNN",
+    "name": "Kit Fisto",
+    "gender": "male",
+    "skinColor": "green",
+    "hairColor": "none",
+    "height": 196,
+    "eyeColor": "black",
+    "mass": 87,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "w04mDHwm4E"
+    },
+    "createdAt": "2019-12-13T19:42:32.015Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "1NXrmiChSe",
+    "name": "Saesee Tiin",
+    "gender": "male",
+    "skinColor": "pale",
+    "hairColor": "none",
+    "height": 188,
+    "eyeColor": "orange",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "OpLqGkPBu4"
+    },
+    "createdAt": "2019-12-13T19:42:31.858Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "cu4zjDaXfr",
+    "name": "R4-P17",
+    "gender": "female",
+    "skinColor": "silver, red",
+    "hairColor": "none",
+    "height": 96,
+    "eyeColor": "red, blue",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "udrPy9AkhD"
+    },
+    "createdAt": "2019-12-13T19:42:32.028Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "9rhfYf4tGR",
+    "name": "Gasgano",
+    "gender": "male",
+    "skinColor": "white, blue",
+    "hairColor": "none",
+    "height": 122,
+    "eyeColor": "black",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "6M9weFJ7bG"
+    },
+    "createdAt": "2019-12-13T19:42:31.884Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "c9LOg1t3As",
+    "name": "Cordé",
+    "gender": "female",
+    "skinColor": "light",
+    "hairColor": "brown",
+    "height": 157,
+    "eyeColor": "brown",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "6EhvyQR6tl"
+    },
+    "createdAt": "2019-12-13T19:42:32.004Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "R0McYE66gy",
+    "name": "San Hill",
+    "gender": "male",
+    "skinColor": "grey",
+    "hairColor": "none",
+    "height": 191,
+    "eyeColor": "gold",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "vDGo92KQPT"
+    },
+    "createdAt": "2019-12-13T19:42:32.046Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "iwAusGiDCf",
+    "name": "Quarsh Panaka",
+    "gender": "male",
+    "skinColor": "dark",
+    "hairColor": "black",
+    "height": 183,
+    "eyeColor": "brown",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "6EhvyQR6tl"
+    },
+    "birthYear": "62BBY",
+    "createdAt": "2019-12-13T19:42:32.053Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "4ce6iNwMJk",
+    "name": "R5-D4",
+    "gender": null,
+    "skinColor": "white, red",
+    "hairColor": null,
+    "height": 97,
+    "eyeColor": "red",
+    "mass": 32,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "PL36fSGLoW"
+    },
+    "createdAt": "2019-12-13T19:42:32.015Z",
+    "updatedAt": "2019-12-13T19:42:36.281Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "YD2KryeEYu",
+    "name": "Ratts Tyerel",
+    "gender": "male",
+    "skinColor": "grey, blue",
+    "hairColor": "none",
+    "height": 79,
+    "mass": 15,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "IV6wThNACG"
+    },
+    "createdAt": "2019-12-13T19:42:32.014Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "LS6YVwh4bD",
+    "name": "Ayla Secura",
+    "gender": "female",
+    "skinColor": "blue",
+    "hairColor": "none",
+    "height": 178,
+    "eyeColor": "hazel",
+    "mass": 55,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "hLoKcYf27J"
+    },
+    "birthYear": "48BBY",
+    "createdAt": "2019-12-13T19:42:32.014Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "zAMkPZYQXf",
+    "name": "Bossk",
+    "gender": "male",
+    "skinColor": "green",
+    "hairColor": "none",
+    "height": 190,
+    "eyeColor": "red",
+    "mass": 113,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "1YIAHpQAZF"
+    },
+    "birthYear": "53BBY",
+    "createdAt": "2019-12-13T19:42:31.896Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "0jnD4Dkq32",
+    "name": "Barriss Offee",
+    "gender": "female",
+    "skinColor": "yellow",
+    "hairColor": "black",
+    "height": 166,
+    "eyeColor": "blue",
+    "mass": 50,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "OasAWgeN2p"
+    },
+    "birthYear": "40BBY",
+    "createdAt": "2019-12-13T19:42:31.909Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "26ro24HNce",
+    "name": "Chewbacca",
+    "gender": "male",
+    "hairColor": "brown",
+    "height": 228,
+    "eyeColor": "blue",
+    "mass": 112,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "EvtUWbZuHM"
+    },
+    "birthYear": "200BBY",
+    "createdAt": "2019-12-13T19:42:31.897Z",
+    "updatedAt": "2019-12-13T19:42:36.282Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "MVX5XcZg1T",
+    "name": "Wedge Antilles",
+    "gender": "male",
+    "skinColor": "fair",
+    "hairColor": "brown",
+    "height": 170,
+    "eyeColor": "hazel",
+    "mass": 77,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "eukAnISjbt"
+    },
+    "birthYear": "21BBY",
+    "createdAt": "2019-12-13T19:42:31.916Z",
+    "updatedAt": "2019-12-13T19:42:36.282Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "uVEZCGWfAm",
+    "name": "Bail Prestor Organa",
+    "gender": "male",
+    "skinColor": "tan",
+    "hairColor": "black",
+    "height": 191,
+    "eyeColor": "brown",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "43NzGsaO90"
+    },
+    "birthYear": "67BBY",
+    "createdAt": "2019-12-13T19:42:31.900Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "FUgb7NeYl8",
+    "name": "Darth Maul",
+    "gender": "male",
+    "skinColor": "red",
+    "hairColor": "none",
+    "height": 175,
+    "eyeColor": "yellow",
+    "mass": 80,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "nwcgkmfQnB"
+    },
+    "birthYear": "54BBY",
+    "createdAt": "2019-12-13T19:42:31.907Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "1oc8F4xS7t",
+    "name": "Adi Gallia",
+    "gender": "female",
+    "skinColor": "dark",
+    "hairColor": "none",
+    "height": 184,
+    "eyeColor": "blue",
+    "mass": 50,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "AmxEngCKLr"
+    },
+    "createdAt": "2019-12-13T19:42:31.928Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "AfMOqnIIBI",
+    "name": "Dud Bolt",
+    "gender": "male",
+    "skinColor": "blue, grey",
+    "hairColor": "none",
+    "height": 94,
+    "eyeColor": "yellow",
+    "mass": 45,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "rfyNcjTeGz"
+    },
+    "createdAt": "2019-12-13T19:42:32.042Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "LZuFvEayY1",
+    "name": "Dormé",
+    "gender": "female",
+    "skinColor": "light",
+    "hairColor": "brown",
+    "height": 165,
+    "eyeColor": "brown",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "6EhvyQR6tl"
+    },
+    "createdAt": "2019-12-13T19:42:32.089Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "jimrhYkMSO",
+    "name": "Cliegg Lars",
+    "gender": "male",
+    "skinColor": "fair",
+    "hairColor": "brown",
+    "height": 183,
+    "eyeColor": "blue",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "PL36fSGLoW"
+    },
+    "birthYear": "82BBY",
+    "createdAt": "2019-12-13T19:42:32.053Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "V5CA4gq96l",
+    "name": "Finis Valorum",
+    "gender": "male",
+    "skinColor": "fair",
+    "hairColor": "blond",
+    "height": 170,
+    "eyeColor": "blue",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "AmxEngCKLr"
+    },
+    "birthYear": "91BBY",
+    "createdAt": "2019-12-13T19:42:31.936Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "kzkQn1jtND",
+    "name": "Jabba Desilijic Tiure",
+    "gender": "hermaphrodite",
+    "skinColor": "green-tan, brown",
+    "hairColor": null,
+    "height": 175,
+    "eyeColor": "orange",
+    "mass": null,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "YGflaUC1Kg"
+    },
+    "birthYear": "600BBY",
+    "createdAt": "2019-12-13T19:42:32.094Z",
+    "updatedAt": "2019-12-13T19:42:36.282Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "rrAdAIJiSm",
+    "name": "Ki-Adi-Mundi",
+    "gender": "male",
+    "skinColor": "pale",
+    "hairColor": "white",
+    "height": 198,
+    "eyeColor": "yellow",
+    "mass": 82,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "jhdx7YIGef"
+    },
+    "birthYear": "92BBY",
+    "createdAt": "2019-12-13T19:42:32.146Z",
+    "updatedAt": "2019-12-13T19:42:36.599Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "4gc8DvI4Dw",
+    "name": "Jango Fett",
+    "gender": "male",
+    "skinColor": "tan",
+    "hairColor": "black",
+    "height": 183,
+    "eyeColor": "brown",
+    "mass": 79,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "D23qC9QM5p"
+    },
+    "birthYear": "66BBY",
+    "createdAt": "2019-12-13T19:42:32.130Z",
+    "updatedAt": "2019-12-13T19:42:36.884Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "me9LL0DKdJ",
+    "name": "Qui-Gon Jinn",
+    "gender": "male",
+    "skinColor": "fair",
+    "hairColor": "brown",
+    "height": 193,
+    "eyeColor": "blue",
+    "mass": 89,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "udrPy9AkhD"
+    },
+    "birthYear": "92BBY",
+    "createdAt": "2019-12-13T19:42:32.021Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "rAd55y31Tk",
+    "name": "Greedo",
+    "gender": "male",
+    "skinColor": "green",
+    "hairColor": null,
+    "height": 173,
+    "eyeColor": "black",
+    "mass": 74,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "yOswX1MpKK"
+    },
+    "birthYear": "44BBY",
+    "createdAt": "2019-12-13T19:42:32.189Z",
+    "updatedAt": "2019-12-13T19:42:36.282Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "3p1fbNLGwf",
+    "name": "Roos Tarpals",
+    "gender": "male",
+    "skinColor": "grey",
+    "hairColor": "none",
+    "height": 224,
+    "eyeColor": "orange",
+    "mass": 82,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "6EhvyQR6tl"
+    },
+    "createdAt": "2019-12-13T19:42:32.157Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "Kmu4muWCCF",
+    "name": "Mon Mothma",
+    "gender": "female",
+    "skinColor": "fair",
+    "hairColor": "auburn",
+    "height": 150,
+    "eyeColor": "blue",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "uucu3Oy9LO"
+    },
+    "birthYear": "48BBY",
+    "createdAt": "2019-12-13T19:42:32.099Z",
+    "updatedAt": "2019-12-13T19:42:36.470Z",
+    "species": {
+      "__type": "Relation",
+      "className": "Specie"
+    },
+    "vehicles": {
+      "__type": "Relation",
+      "className": "Vehicle"
+    },
+    "starships": {
+      "__type": "Relation",
+      "className": "Starship"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  }
+]
+}

@@ -1,0 +1,901 @@
+{
+"results" : [
+
+  {
+    "objectId": "GKADuoyFth",
+    "name": "AT-AT",
+    "cargoCapacity": 1000,
+    "passengers": 40,
+    "maxAtmospheringSpeed": 60,
+    "crew": 5,
+    "length": 20,
+    "model": "All Terrain Armored Transport",
+    "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+    "vehicleClass": "assault walker",
+    "createdAt": "2019-12-13T19:42:34.468Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "AkwpyZDVub",
+    "consumables": "1 day",
+    "name": "C-9979 landing craft",
+    "cargoCapacity": 1800000,
+    "passengers": 284,
+    "maxAtmospheringSpeed": 587,
+    "crew": 140,
+    "length": 210,
+    "model": "C-9979 landing craft",
+    "costInCredits": 200000,
+    "manufacturer": "Haor Chall Engineering",
+    "vehicleClass": "landing craft",
+    "createdAt": "2019-12-13T19:42:34.350Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "eBd6n35xfU",
+    "consumables": "none",
+    "name": "Zephyr-G swoop bike",
+    "cargoCapacity": 200,
+    "passengers": 1,
+    "maxAtmospheringSpeed": 350,
+    "crew": 1,
+    "length": 3.68,
+    "model": "Zephyr-G swoop bike",
+    "costInCredits": 5750,
+    "manufacturer": "Mobquet Swoops and Speeders",
+    "vehicleClass": "repulsorcraft",
+    "createdAt": "2019-12-13T19:42:34.484Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "DJIm9mYksz",
+    "consumables": "2 days",
+    "name": "TIE/LN starfighter",
+    "cargoCapacity": 65,
+    "passengers": 0,
+    "maxAtmospheringSpeed": 1200,
+    "crew": 1,
+    "length": 6.4,
+    "model": "Twin Ion Engine/Ln Starfighter",
+    "manufacturer": "Sienar Fleet Systems",
+    "vehicleClass": "starfighter",
+    "createdAt": "2019-12-13T19:42:34.534Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "SLxC6CPcEL",
+    "consumables": "2 months",
+    "name": "Sand Crawler",
+    "cargoCapacity": 50000,
+    "passengers": 30,
+    "maxAtmospheringSpeed": 30,
+    "crew": 46,
+    "length": 36.8,
+    "model": "Digger Crawler",
+    "costInCredits": 150000,
+    "manufacturer": "Corellia Mining Corporation",
+    "vehicleClass": "wheeled",
+    "createdAt": "2019-12-13T19:42:34.541Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "51N0xPOb9B",
+    "consumables": "0",
+    "name": "T-16 skyhopper",
+    "cargoCapacity": 50,
+    "passengers": 1,
+    "maxAtmospheringSpeed": 1200,
+    "crew": 1,
+    "length": 10.4,
+    "model": "T-16 skyhopper",
+    "costInCredits": 14500,
+    "manufacturer": "Incom Corporation",
+    "vehicleClass": "repulsorcraft",
+    "createdAt": "2019-12-13T19:42:34.553Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "KMVlBMNvE4",
+    "name": "Sith speeder",
+    "cargoCapacity": 2,
+    "passengers": 0,
+    "maxAtmospheringSpeed": 180,
+    "crew": 1,
+    "length": 1.5,
+    "model": "FC-20 speeder bike",
+    "costInCredits": 4000,
+    "manufacturer": "Razalon",
+    "vehicleClass": "speeder",
+    "createdAt": "2019-12-13T19:42:34.514Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "eNPTgZTlWE",
+    "consumables": "1 day",
+    "name": "Bantha-II cargo skiff",
+    "cargoCapacity": 135000,
+    "passengers": 16,
+    "maxAtmospheringSpeed": 250,
+    "crew": 5,
+    "length": 9.5,
+    "model": "Bantha-II",
+    "costInCredits": 8000,
+    "manufacturer": "Ubrikkian Industries",
+    "vehicleClass": "repulsorcraft cargo skiff",
+    "createdAt": "2019-12-13T19:42:34.396Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "QPQRVV8W2K",
+    "consumables": "21 days",
+    "name": "AT-TE",
+    "cargoCapacity": 10000,
+    "passengers": 36,
+    "maxAtmospheringSpeed": 60,
+    "crew": 6,
+    "length": 13.2,
+    "model": "All Terrain Tactical Enforcer",
+    "manufacturer": "Rothana Heavy Engineering, Kuat Drive Yards",
+    "vehicleClass": "walker",
+    "createdAt": "2019-12-13T19:42:34.396Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "RG7c1jYBpa",
+    "name": "Koro-2 Exodrive airspeeder",
+    "cargoCapacity": 80,
+    "passengers": 1,
+    "maxAtmospheringSpeed": 800,
+    "crew": 1,
+    "length": 6.6,
+    "model": "Koro-2 Exodrive airspeeder",
+    "manufacturer": "Desler Gizh Outworld Mobility Corporation",
+    "vehicleClass": "airspeeder",
+    "createdAt": "2019-12-13T19:42:34.565Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "f1oyRd3bJt",
+    "consumables": "none",
+    "name": "Vulture Droid",
+    "cargoCapacity": 0,
+    "passengers": 0,
+    "maxAtmospheringSpeed": 1200,
+    "crew": 0,
+    "length": 3.5,
+    "model": "Vulture-class droid starfighter",
+    "manufacturer": "Haor Chall Engineering, Baktoid Armor Workshop",
+    "vehicleClass": "starfighter",
+    "createdAt": "2019-12-13T19:42:34.411Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "I7hL5RqIOf",
+    "name": "Armored Assault Tank",
+    "passengers": 6,
+    "maxAtmospheringSpeed": 55,
+    "crew": 4,
+    "length": 9.75,
+    "model": "Armoured Assault Tank",
+    "manufacturer": "Baktoid Armor Workshop",
+    "vehicleClass": "repulsorcraft",
+    "createdAt": "2019-12-13T19:42:34.429Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "AtFEKIwfzK",
+    "consumables": "2 days",
+    "name": "TIE bomber",
+    "cargoCapacity": null,
+    "passengers": 0,
+    "maxAtmospheringSpeed": 850,
+    "crew": 1,
+    "length": 7.8,
+    "model": "TIE/sa bomber",
+    "manufacturer": "Sienar Fleet Systems",
+    "vehicleClass": "space/planetary bomber",
+    "createdAt": "2019-12-13T19:42:34.534Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "teHFkyAqy0",
+    "consumables": "2 days",
+    "name": "TIE/IN interceptor",
+    "cargoCapacity": 75,
+    "passengers": 0,
+    "maxAtmospheringSpeed": 1250,
+    "crew": 1,
+    "length": 9.6,
+    "model": "Twin Ion Engine Interceptor",
+    "manufacturer": "Sienar Fleet Systems",
+    "vehicleClass": "starfighter",
+    "createdAt": "2019-12-13T19:42:34.419Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "rKF6mcUesc",
+    "consumables": "1 day",
+    "name": "Storm IV Twin-Pod cloud car",
+    "cargoCapacity": 10,
+    "passengers": 0,
+    "maxAtmospheringSpeed": 1500,
+    "crew": 2,
+    "length": 7,
+    "model": "Storm IV Twin-Pod",
+    "costInCredits": 75000,
+    "manufacturer": "Bespin Motors",
+    "vehicleClass": "repulsorcraft",
+    "createdAt": "2019-12-13T19:42:34.539Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "NdKhSWkcGj",
+    "name": "Tribubble bongo",
+    "cargoCapacity": 1600,
+    "passengers": 2,
+    "maxAtmospheringSpeed": 85,
+    "crew": 1,
+    "length": 15,
+    "model": "Tribubble bongo",
+    "manufacturer": "Otoh Gunga Bongameken Cooperative",
+    "vehicleClass": "submarine",
+    "createdAt": "2019-12-13T19:42:34.433Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "pCVeRYzs6x",
+    "consumables": "none",
+    "name": "Corporate Alliance tank droid",
+    "cargoCapacity": null,
+    "passengers": 4,
+    "maxAtmospheringSpeed": 100,
+    "crew": 0,
+    "length": 10.96,
+    "model": "NR-N99 Persuader-class droid enforcer",
+    "costInCredits": 49000,
+    "manufacturer": "Techno Union",
+    "vehicleClass": "droid tank",
+    "createdAt": "2019-12-13T19:42:34.608Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "ICWlyWg0Mu",
+    "name": "Multi-Troop Transport",
+    "cargoCapacity": 12000,
+    "passengers": 112,
+    "maxAtmospheringSpeed": 35,
+    "crew": 4,
+    "length": 31,
+    "model": "Multi-Troop Transport",
+    "costInCredits": 138000,
+    "manufacturer": "Baktoid Armor Workshop",
+    "vehicleClass": "repulsorcraft",
+    "createdAt": "2019-12-13T19:42:34.467Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "utGgMTDozL",
+    "consumables": "7 days",
+    "name": "SPHA",
+    "cargoCapacity": 500,
+    "passengers": 30,
+    "maxAtmospheringSpeed": 35,
+    "crew": 25,
+    "length": 140,
+    "model": "Self-Propelled Heavy Artillery",
+    "manufacturer": "Rothana Heavy Engineering",
+    "vehicleClass": "walker",
+    "createdAt": "2019-12-13T19:42:34.575Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "aoewlvkIz9",
+    "consumables": "1 day",
+    "name": "AT-RT",
+    "cargoCapacity": 20,
+    "passengers": 0,
+    "maxAtmospheringSpeed": 90,
+    "crew": 1,
+    "length": 3.2,
+    "model": "All Terrain Recon Transport",
+    "costInCredits": 40000,
+    "manufacturer": "Kuat Drive Yards",
+    "vehicleClass": "walker",
+    "createdAt": "2019-12-13T19:42:34.614Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "VYcFeVcevK",
+    "consumables": "none",
+    "name": "Droid tri-fighter",
+    "cargoCapacity": 0,
+    "passengers": 0,
+    "maxAtmospheringSpeed": 1180,
+    "crew": 1,
+    "length": 5.4,
+    "model": "tri-fighter",
+    "costInCredits": 20000,
+    "manufacturer": "Colla Designs, Phlac-Arphocc Automata Industries",
+    "vehicleClass": "droid starfighter",
+    "createdAt": "2019-12-13T19:42:34.615Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "d8vCtlRaAB",
+    "consumables": "none",
+    "name": "Droid gunship",
+    "cargoCapacity": 0,
+    "passengers": 0,
+    "maxAtmospheringSpeed": 820,
+    "crew": 0,
+    "length": 12.3,
+    "model": "HMP droid gunship",
+    "costInCredits": 60000,
+    "manufacturer": "Baktoid Fleet Ordnance, Haor Chall Engineering",
+    "vehicleClass": "airspeeder",
+    "createdAt": "2019-12-13T19:42:34.614Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "Ai2rkPnjvF",
+    "consumables": "20 days",
+    "name": "Clone turbo tank",
+    "cargoCapacity": 30000,
+    "passengers": 300,
+    "maxAtmospheringSpeed": 160,
+    "crew": 20,
+    "length": 49.4,
+    "model": "HAVw A6 Juggernaut",
+    "costInCredits": 350000,
+    "manufacturer": "Kuat Drive Yards",
+    "vehicleClass": "wheeled walker",
+    "createdAt": "2019-12-13T19:42:34.619Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "2RMOc7zzkj",
+    "consumables": "1 day",
+    "name": "Imperial Speeder Bike",
+    "cargoCapacity": 4,
+    "passengers": 1,
+    "maxAtmospheringSpeed": 360,
+    "crew": 1,
+    "length": 3,
+    "model": "74-Z speeder bike",
+    "costInCredits": 8000,
+    "manufacturer": "Aratech Repulsor Company",
+    "vehicleClass": "speeder",
+    "createdAt": "2019-12-13T19:42:34.476Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "WsfCvLenTA",
+    "name": "X-34 landspeeder",
+    "cargoCapacity": 5,
+    "passengers": 1,
+    "maxAtmospheringSpeed": 250,
+    "crew": 1,
+    "length": 3.4,
+    "model": "X-34 landspeeder",
+    "costInCredits": 10550,
+    "manufacturer": "SoroSuub Corporation",
+    "vehicleClass": "repulsorcraft",
+    "createdAt": "2019-12-13T19:42:34.601Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "zFQDtCX4GD",
+    "name": "LAAT/i",
+    "cargoCapacity": 170,
+    "passengers": 30,
+    "maxAtmospheringSpeed": 620,
+    "crew": 6,
+    "length": 17.4,
+    "model": "Low Altitude Assault Transport/infrantry",
+    "manufacturer": "Rothana Heavy Engineering",
+    "vehicleClass": "gunship",
+    "createdAt": "2019-12-13T19:42:34.605Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "8cPVBOgBwJ",
+    "consumables": "3 days",
+    "name": "Oevvaor jet catamaran",
+    "cargoCapacity": 50,
+    "passengers": 2,
+    "maxAtmospheringSpeed": 420,
+    "crew": 2,
+    "length": 15.1,
+    "model": "Oevvaor jet catamaran",
+    "costInCredits": 12125,
+    "manufacturer": "Appazanna Engineering Works",
+    "vehicleClass": "airspeeder",
+    "createdAt": "2019-12-13T19:42:34.487Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "24cHAlVrrd",
+    "name": "Geonosian starfighter",
+    "passengers": 0,
+    "maxAtmospheringSpeed": 20000,
+    "crew": 1,
+    "length": 9.8,
+    "model": "Nantex-class territorial defense",
+    "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+    "vehicleClass": "starfighter",
+    "createdAt": "2019-12-13T19:42:34.504Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "KVXGWeGIij",
+    "consumables": "7 days",
+    "name": "Neimoidian shuttle",
+    "cargoCapacity": 1000,
+    "passengers": 6,
+    "maxAtmospheringSpeed": 880,
+    "crew": 2,
+    "length": 20,
+    "model": "Sheathipede-class transport shuttle",
+    "manufacturer": "Haor Chall Engineering",
+    "vehicleClass": "transport",
+    "createdAt": "2019-12-13T19:42:34.609Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "avmXmWsDDJ",
+    "consumables": "none",
+    "name": "Raddaugh Gnasp fluttercraft",
+    "cargoCapacity": 20,
+    "passengers": 0,
+    "maxAtmospheringSpeed": 310,
+    "crew": 2,
+    "length": 7,
+    "model": "Raddaugh Gnasp fluttercraft",
+    "costInCredits": 14750,
+    "manufacturer": "Appazanna Engineering Works",
+    "vehicleClass": "air speeder",
+    "createdAt": "2019-12-13T19:42:34.650Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "eC9Nji4J6z",
+    "consumables": "none",
+    "name": "Tsmeu-6 personal wheel bike",
+    "cargoCapacity": 10,
+    "passengers": 1,
+    "maxAtmospheringSpeed": 330,
+    "crew": 1,
+    "length": 3.5,
+    "model": "Tsmeu-6 personal wheel bike",
+    "costInCredits": 15000,
+    "manufacturer": "Z-Gomot Ternbuell Guppat Corporation",
+    "vehicleClass": "wheeled walker",
+    "createdAt": "2019-12-13T19:42:34.611Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "rhIDTEgYLy",
+    "name": "LAAT/c",
+    "cargoCapacity": 40000,
+    "passengers": 0,
+    "maxAtmospheringSpeed": 620,
+    "crew": 1,
+    "length": 28.82,
+    "model": "Low Altitude Assault Transport/carrier",
+    "manufacturer": "Rothana Heavy Engineering",
+    "vehicleClass": "gunship",
+    "createdAt": "2019-12-13T19:42:34.496Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "iJreBMeM4k",
+    "name": "XJ-6 airspeeder",
+    "passengers": 1,
+    "maxAtmospheringSpeed": 720,
+    "crew": 1,
+    "length": 6.23,
+    "model": "XJ-6 airspeeder",
+    "manufacturer": "Narglatch AirTech prefabricated kit",
+    "vehicleClass": "airspeeder",
+    "createdAt": "2019-12-13T19:42:34.493Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "na3XbtzcDN",
+    "name": "Emergency Firespeeder",
+    "crew": 2,
+    "model": "Fire suppression speeder",
+    "vehicleClass": "fire suppression ship",
+    "createdAt": "2019-12-13T19:42:34.512Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "YuPUPmlg2r",
+    "consumables": "Live food tanks",
+    "name": "Sail barge",
+    "cargoCapacity": 2000000,
+    "passengers": 500,
+    "maxAtmospheringSpeed": 100,
+    "crew": 26,
+    "length": 30,
+    "model": "Modified Luxury Sail Barge",
+    "costInCredits": 285000,
+    "manufacturer": "Ubrikkian Industries Custom Vehicle Division",
+    "vehicleClass": "sail barge",
+    "createdAt": "2019-12-13T19:42:34.617Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "8deZC3YjGb",
+    "consumables": "none",
+    "name": "Snowspeeder",
+    "cargoCapacity": 10,
+    "passengers": 0,
+    "maxAtmospheringSpeed": 650,
+    "crew": 2,
+    "length": 4.5,
+    "model": "t-47 airspeeder",
+    "manufacturer": "Incom corporation",
+    "vehicleClass": "airspeeder",
+    "createdAt": "2019-12-13T19:42:34.659Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "pMwZsyHn9F",
+    "consumables": "none",
+    "name": "Single Trooper Aerial Platform",
+    "cargoCapacity": null,
+    "passengers": 0,
+    "maxAtmospheringSpeed": 400,
+    "crew": 1,
+    "length": 2,
+    "model": "Single Trooper Aerial Platform",
+    "costInCredits": 2500,
+    "manufacturer": "Baktoid Armor Workshop",
+    "vehicleClass": "repulsorcraft",
+    "createdAt": "2019-12-13T19:42:34.500Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "zPueYdAR01",
+    "consumables": "none",
+    "name": "AT-ST",
+    "cargoCapacity": 200,
+    "passengers": 0,
+    "maxAtmospheringSpeed": 90,
+    "crew": 2,
+    "length": 2,
+    "model": "All Terrain Scout Transport",
+    "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+    "vehicleClass": "walker",
+    "createdAt": "2019-12-13T19:42:34.659Z",
+    "updatedAt": "2019-12-13T19:42:37.543Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "Ip1tgAaydW",
+    "name": "Flitknot speeder",
+    "passengers": 0,
+    "maxAtmospheringSpeed": 634,
+    "crew": 1,
+    "length": 2,
+    "model": "Flitknot speeder",
+    "costInCredits": 8000,
+    "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+    "vehicleClass": "speeder",
+    "createdAt": "2019-12-13T19:42:34.742Z",
+    "updatedAt": "2019-12-13T19:42:37.546Z",
+    "pilots": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  }
+]
+}

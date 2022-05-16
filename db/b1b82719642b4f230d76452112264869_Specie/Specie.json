@@ -1,0 +1,1270 @@
+{
+"results" : [
+
+  {
+    "objectId": "fqQdXdCHzs",
+    "eyeColors": [
+      "brown",
+      "blue",
+      "green",
+      "hazel",
+      "grey",
+      "amber"
+    ],
+    "skinColors": [
+      "caucasian",
+      "black",
+      "asian",
+      "hispanic"
+    ],
+    "hairColors": [
+      "blonde",
+      "brown",
+      "black",
+      "red"
+    ],
+    "classification": "mammal",
+    "name": "Human",
+    "designation": "sentient",
+    "language": "Galactic Basic",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "AmxEngCKLr"
+    },
+    "averageLifespan": 120,
+    "averageHeight": 180,
+    "createdAt": "2019-12-13T19:42:33.074Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "BGcZHFZFY2",
+    "eyeColors": [
+      "orange"
+    ],
+    "skinColors": [
+      "brown",
+      "green"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "amphibian",
+    "name": "Gungan",
+    "designation": "sentient",
+    "language": "Gungan basic",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "6EhvyQR6tl"
+    },
+    "averageHeight": 190,
+    "createdAt": "2019-12-13T19:42:33.090Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "2GFwsvrHL6",
+    "eyeColors": [
+      "orange",
+      "brown"
+    ],
+    "skinColors": [
+      "brown"
+    ],
+    "hairColors": [
+      "white",
+      "brown",
+      "black"
+    ],
+    "classification": "mammal",
+    "name": "Ewok",
+    "designation": "sentient",
+    "language": "Ewokese",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "XkKWE6DYG2"
+    },
+    "averageHeight": 100,
+    "createdAt": "2019-12-13T19:42:33.130Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "yIDav7gj5a",
+    "eyeColors": [
+      "yellow",
+      "orange"
+    ],
+    "skinColors": [
+      "brown",
+      "green"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "reptile",
+    "name": "Trandoshan",
+    "designation": "sentient",
+    "language": "Dosh",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "1YIAHpQAZF"
+    },
+    "averageHeight": 200,
+    "createdAt": "2019-12-13T19:42:32.972Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "P9XQ0KxkvS",
+    "eyeColors": [
+      "brown",
+      "green",
+      "yellow"
+    ],
+    "skinColors": [
+      "green",
+      "yellow"
+    ],
+    "hairColors": [
+      "brown",
+      "white"
+    ],
+    "classification": "mammal",
+    "name": "Yoda's species",
+    "designation": "sentient",
+    "language": "Galactic basic",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "udrPy9AkhD"
+    },
+    "averageLifespan": 900,
+    "averageHeight": 66,
+    "createdAt": "2019-12-13T19:42:32.989Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "5ZKmevbH7l",
+    "classification": "artificial",
+    "name": "Droid",
+    "designation": "sentient",
+    "eyeColors": null,
+    "skinColors": null,
+    "language": null,
+    "hairColors": null,
+    "homeworld": null,
+    "averageLifespan": null,
+    "averageHeight": null,
+    "createdAt": "2019-12-13T19:42:33.133Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "BFHuhuVNAI",
+    "eyeColors": [
+      "black"
+    ],
+    "skinColors": [
+      "pale"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "mammal",
+    "name": "Sullustan",
+    "designation": "sentient",
+    "language": "Sullutese",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "BHaIFQtv7i"
+    },
+    "averageHeight": 180,
+    "createdAt": "2019-12-13T19:42:32.972Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "r0aI0EA25O",
+    "eyeColors": [
+      "red",
+      "pink"
+    ],
+    "skinColors": [
+      "grey",
+      "green"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "name": "Neimodian",
+    "designation": "sentient",
+    "language": "Neimoidia",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "Jt7sJ8ZI7t"
+    },
+    "averageHeight": 180,
+    "createdAt": "2019-12-13T19:42:33.155Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "AANjhB1bPT",
+    "eyeColors": [
+      "yellow"
+    ],
+    "skinColors": [
+      "red",
+      "blue",
+      "brown",
+      "magenta"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "amphibian",
+    "name": "Mon Calamari",
+    "designation": "sentient",
+    "language": "Mon Calamarian",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "EY3gbE2taR"
+    },
+    "averageHeight": 160,
+    "createdAt": "2019-12-13T19:42:33.011Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "kOkqJvezFV",
+    "eyeColors": [
+      "yellow"
+    ],
+    "skinColors": [
+      "blue",
+      "green",
+      "grey"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "mammal",
+    "name": "Toydarian",
+    "designation": "sentient",
+    "language": "Toydarian",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "nFLrjhrAnU"
+    },
+    "averageLifespan": 91,
+    "averageHeight": 120,
+    "createdAt": "2019-12-13T19:42:33.156Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "6hYc0wSwEI",
+    "skinColors": [
+      "blue",
+      "gray"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "reptile",
+    "name": "Aleena",
+    "designation": "sentient",
+    "language": "Aleena",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "IV6wThNACG"
+    },
+    "averageLifespan": 79,
+    "averageHeight": 80,
+    "createdAt": "2019-12-13T19:42:33.116Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "8iMHl5QIZb",
+    "eyeColors": [
+      "black"
+    ],
+    "skinColors": [
+      "green",
+      "blue"
+    ],
+    "classification": "sentient",
+    "name": "Rodian",
+    "designation": "reptilian",
+    "language": "Galatic Basic",
+    "hairColors": null,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "yOswX1MpKK"
+    },
+    "averageHeight": 170,
+    "createdAt": "2019-12-13T19:42:32.998Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "KxocRyt7eo",
+    "eyeColors": [
+      "yellow",
+      "blue"
+    ],
+    "skinColors": [
+      "brown",
+      "purple",
+      "grey",
+      "red"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "mammal",
+    "name": "Dug",
+    "designation": "sentient",
+    "language": "Dugese",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "71987spC7M"
+    },
+    "averageHeight": 100,
+    "createdAt": "2019-12-13T19:42:32.999Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "Tg2ABs3sco",
+    "eyeColors": [
+      "blue",
+      "green",
+      "yellow",
+      "brown",
+      "golden",
+      "red"
+    ],
+    "skinColors": [
+      "gray"
+    ],
+    "hairColors": [
+      "black",
+      "brown"
+    ],
+    "classification": "mammal",
+    "name": "Wookie",
+    "designation": "sentient",
+    "language": "Shyriiwook",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "EvtUWbZuHM"
+    },
+    "averageLifespan": 400,
+    "averageHeight": 210,
+    "createdAt": "2019-12-13T19:42:33.159Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "jgC9lT6Xff",
+    "eyeColors": [
+      "orange"
+    ],
+    "skinColors": [
+      "grey",
+      "green",
+      "yellow"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "name": "Toong",
+    "designation": "sentient",
+    "language": "Tundan",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "AQHJndEr19"
+    },
+    "averageHeight": 200,
+    "createdAt": "2019-12-13T19:42:33.004Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "DMwLWstosP",
+    "eyeColors": [
+      "yellow",
+      "red"
+    ],
+    "skinColors": [
+      "green",
+      "brown",
+      "tan"
+    ],
+    "classification": "gastropod",
+    "name": "Hutt",
+    "designation": "sentient",
+    "language": "Huttese",
+    "hairColors": null,
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "YGflaUC1Kg"
+    },
+    "averageLifespan": 1000,
+    "averageHeight": 300,
+    "createdAt": "2019-12-13T19:42:33.016Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "UZN9cHUblo",
+    "eyeColors": [
+      "yellow"
+    ],
+    "skinColors": [
+      "grey"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "name": "Vulptereen",
+    "designation": "sentient",
+    "language": "vulpterish",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "rfyNcjTeGz"
+    },
+    "averageHeight": 100,
+    "createdAt": "2019-12-13T19:42:33.121Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "rZoyjN5Eoc",
+    "eyeColors": [
+      "blue",
+      "brown",
+      "orange",
+      "pink"
+    ],
+    "skinColors": [
+      "orange",
+      "yellow",
+      "blue",
+      "green",
+      "pink",
+      "purple",
+      "tan"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "mammals",
+    "name": "Twi'lek",
+    "designation": "sentient",
+    "language": "Twi'leki",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "hLoKcYf27J"
+    },
+    "averageHeight": 200,
+    "createdAt": "2019-12-13T19:42:33.126Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "BobYKmivC3",
+    "eyeColors": [
+      "black"
+    ],
+    "skinColors": [
+      "grey",
+      "yellow",
+      "purple"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "name": "Xexto",
+    "designation": "sentient",
+    "language": "Xextese",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "6M9weFJ7bG"
+    },
+    "averageHeight": 125,
+    "createdAt": "2019-12-13T19:42:33.024Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "Neaerczm0T",
+    "eyeColors": [
+      "black"
+    ],
+    "skinColors": [
+      "green",
+      "blue",
+      "brown",
+      "red"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "amphibian",
+    "name": "Nautolan",
+    "designation": "sentient",
+    "language": "Nautila",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "w04mDHwm4E"
+    },
+    "averageLifespan": 70,
+    "averageHeight": 180,
+    "createdAt": "2019-12-13T19:42:33.041Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "HTSKBLxUq4",
+    "eyeColors": [
+      "hazel"
+    ],
+    "skinColors": [
+      "pale pink"
+    ],
+    "hairColors": [
+      "red",
+      "blond",
+      "black",
+      "white"
+    ],
+    "classification": "mammal",
+    "name": "Cerean",
+    "designation": "sentient",
+    "language": "Cerean",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "jhdx7YIGef"
+    },
+    "averageHeight": 200,
+    "createdAt": "2019-12-13T19:42:33.162Z",
+    "updatedAt": "2019-12-13T19:42:37.230Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "t48lV4Tx27",
+    "eyeColors": [
+      "brown",
+      "orange"
+    ],
+    "skinColors": [
+      "pale",
+      "brown",
+      "red",
+      "orange",
+      "yellow"
+    ],
+    "hairColors": [
+      "black"
+    ],
+    "classification": "mammal",
+    "name": "Zabrak",
+    "designation": "sentient",
+    "language": "Zabraki",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "1YfnDESFrB"
+    },
+    "averageHeight": 180,
+    "createdAt": "2019-12-13T19:42:33.060Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "nAlqt8LgM1",
+    "eyeColors": [
+      "blue",
+      "indigo"
+    ],
+    "skinColors": [
+      "dark"
+    ],
+    "classification": "mammal",
+    "name": "Tholothian",
+    "designation": "sentient",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "8hp7YqVxyG"
+    },
+    "createdAt": "2019-12-13T19:42:33.205Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "yyeDuukY4A",
+    "eyeColors": [
+      "orange"
+    ],
+    "skinColors": [
+      "pink"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "name": "Iktotchi",
+    "designation": "sentient",
+    "language": "Iktotchese",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "OpLqGkPBu4"
+    },
+    "averageHeight": 180,
+    "createdAt": "2019-12-13T19:42:33.169Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "WwMu5FXuSq",
+    "skinColors": [
+      "grey",
+      "green"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "mammal",
+    "name": "Skakoan",
+    "designation": "sentient",
+    "language": "Skakoan",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "81Z42snwmA"
+    },
+    "createdAt": "2019-12-13T19:42:33.210Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "7O2h8IfBnB",
+    "eyeColors": [
+      "black",
+      "silver"
+    ],
+    "skinColors": [
+      "peach",
+      "orange",
+      "red"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "name": "Kel Dor",
+    "designation": "sentient",
+    "language": "Kel Dor",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "amNSuY5YKH"
+    },
+    "averageLifespan": 70,
+    "averageHeight": 180,
+    "createdAt": "2019-12-13T19:42:33.051Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "t9VERDgOgj",
+    "eyeColors": [
+      "green",
+      "hazel"
+    ],
+    "skinColors": [
+      "green",
+      "brown"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "insectoid",
+    "name": "Geonosian",
+    "designation": "sentient",
+    "language": "Geonosian",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "nn4RvL2myQ"
+    },
+    "averageHeight": 178,
+    "createdAt": "2019-12-13T19:42:33.210Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "CEyGcnzQpK",
+    "eyeColors": [
+      "yellow"
+    ],
+    "skinColors": [
+      "white"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "mammal",
+    "name": "Quermian",
+    "designation": "sentient",
+    "language": "Quermian",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "ICyD92JiTe"
+    },
+    "averageLifespan": 86,
+    "averageHeight": 240,
+    "createdAt": "2019-12-13T19:42:33.059Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "9SVromrYyh",
+    "eyeColors": [
+      "yellow"
+    ],
+    "skinColors": [
+      "green",
+      "yellow"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "reptilian",
+    "name": "Clawdite",
+    "designation": "sentient",
+    "language": "Clawdite",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "RWSfQanzkC"
+    },
+    "averageLifespan": 70,
+    "averageHeight": 180,
+    "createdAt": "2019-12-13T19:42:33.181Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "tOY4tiDR6K",
+    "eyeColors": [
+      "black"
+    ],
+    "skinColors": [
+      "grey",
+      "white"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "mammal",
+    "name": "Muun",
+    "designation": "sentient",
+    "language": "Muun",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "vDGo92KQPT"
+    },
+    "averageLifespan": 100,
+    "averageHeight": 190,
+    "createdAt": "2019-12-13T19:42:33.225Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "wWmtNJCE0R",
+    "eyeColors": [
+      "black"
+    ],
+    "skinColors": [
+      "grey"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "mammal",
+    "name": "Pau'an",
+    "designation": "sentient",
+    "language": "Utapese",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "3M3m6D09tw"
+    },
+    "averageLifespan": 700,
+    "averageHeight": 190,
+    "createdAt": "2019-12-13T19:42:33.281Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "3CeApAuCII",
+    "eyeColors": [
+      "blue",
+      "green",
+      "red",
+      "yellow",
+      "brown",
+      "orange"
+    ],
+    "skinColors": [
+      "yellow",
+      "green"
+    ],
+    "hairColors": [
+      "black",
+      "brown"
+    ],
+    "classification": "mammal",
+    "name": "Mirialan",
+    "designation": "sentient",
+    "language": "Mirialan",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "OasAWgeN2p"
+    },
+    "averageHeight": 180,
+    "createdAt": "2019-12-13T19:42:33.258Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "4NgpbeTTAz",
+    "eyeColors": [
+      "blue"
+    ],
+    "skinColors": [
+      "blue"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "amphibian",
+    "name": "Chagrian",
+    "designation": "sentient",
+    "language": "Chagria",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "4m1OB1jIjC"
+    },
+    "averageHeight": 190,
+    "createdAt": "2019-12-13T19:42:33.141Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "lEmwwnRnnD",
+    "eyeColors": [
+      "yellow"
+    ],
+    "skinColors": [
+      "brown"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "amphibian",
+    "name": "Besalisk",
+    "designation": "sentient",
+    "language": "besalisk",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "gAy3fHM7d2"
+    },
+    "averageLifespan": 75,
+    "averageHeight": 178,
+    "createdAt": "2019-12-13T19:42:33.329Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "Z7FCUAttDc",
+    "eyeColors": [
+      "black"
+    ],
+    "skinColors": [
+      "grey",
+      "blue"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "amphibian",
+    "name": "Kaminoan",
+    "designation": "sentient",
+    "language": "Kaminoan",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "z2uJ1N7RUj"
+    },
+    "averageLifespan": 80,
+    "averageHeight": 220,
+    "createdAt": "2019-12-13T19:42:33.293Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "aAVx282OGJ",
+    "eyeColors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "black"
+    ],
+    "skinColors": [
+      "red",
+      "white",
+      "orange",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "mammal",
+    "name": "Togruta",
+    "designation": "sentient",
+    "language": "Togruti",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "Xu82yRBXgZ"
+    },
+    "averageLifespan": 94,
+    "averageHeight": 180,
+    "createdAt": "2019-12-13T19:42:33.353Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  },
+  {
+    "objectId": "8xpEumjqbB",
+    "eyeColors": [
+      "yellow"
+    ],
+    "skinColors": [
+      "brown",
+      "orange",
+      "tan"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "classification": "reptile",
+    "name": "Kaleesh",
+    "designation": "sentient",
+    "language": "Kaleesh",
+    "homeworld": {
+      "__type": "Pointer",
+      "className": "Planet",
+      "objectId": "FR8HGCrbyi"
+    },
+    "averageLifespan": 80,
+    "averageHeight": 170,
+    "createdAt": "2019-12-13T19:42:33.433Z",
+    "updatedAt": "2019-12-13T19:42:37.416Z",
+    "people": {
+      "__type": "Relation",
+      "className": "Character"
+    },
+    "films": {
+      "__type": "Relation",
+      "className": "Film"
+    }
+  }
+]
+}

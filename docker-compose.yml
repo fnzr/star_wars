@@ -1,0 +1,48 @@
+version: '3.7'
+x-base-api: &base-api
+  user: "${UID}:${GID}"
+  extra_hosts:
+    - host.docker.internal:host-gateway
+  build:
+    context: api
+  restart: unless-stopped
+  volumes:
+    - ./api:/server
+    - ./db:/db
+    - ${ORKESTER_PATH}:/server/vendor/elymatos/orkester
+    - ./api/ini/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+services:
+  api:
+    <<: *base-api
+    ports:
+      - "${PHP_PORT}:8000"
+    command: "php -S 0.0.0.0:8000"
+  cli:
+    <<: *base-api
+    entrypoint: "php /server/cli.php"
+    restart: "no"
+  tests:
+    <<: *base-api
+    entrypoint: "vendor/bin/phpunit --bootstrap tests/bootstrap.php tests"
+  #web:
+  #  image: node:18-alpine3.14
+  #  user: "node"
+  #  working_dir: /home/node/app
+  #  ports:
+  #    - "${WEB_PORT}:3000"
+  #  #command: "yarn dev"
+  #  command: "exit"
+  #  volumes:
+  #    - ./web:/home/node/app
+  db:
+    image: mariadb:10.7
+    restart: unless-stopped
+    ports:
+      - "${DB_PORT}:3306"
+    volumes:
+      - ${DB_VOLUME_PATH:-./volumes/db}/:/var/lib/mysql
+    environment:
+      - MARIADB_DATABASE=star_wars
+      - MARIADB_USER=kenobi
+      - MARIADB_PASSWORD=12345
+      - MARIADB_ROOT_PASSWORD=7890
