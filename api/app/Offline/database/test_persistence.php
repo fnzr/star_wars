@@ -1,6 +1,8 @@
 <?php
 
 use App\Models\CharacterModel;
+use App\Models\PlanetModel;
+use App\Models\VehicleModel;
 
 $baseDir = realpath(dirname(dirname(dirname(dirname(__FILE__)))));
 print_r($baseDir);
@@ -47,13 +49,13 @@ function test()
 
         // basic select list
         $list = CharacterModel::getCriteria()
-            ->select('idCharacter','name')
+            ->select('idCharacter', 'name')
             ->where('name', 'like', '%Ken%')
             ->get();
 
         // basic select array
         $list = CharacterModel::getCriteria()
-            ->select(['idCharacter','name'])
+            ->select(['idCharacter', 'name'])
             ->where('name', 'like', '%Ken%')
             ->get();
 
@@ -77,14 +79,14 @@ function test()
 
         // multiple where
         $list = CharacterModel::getCriteria()
-            ->where('gender', 'IN', ['male','female'])
-            ->where('name','like', '%as%')
+            ->where('gender', 'IN', ['male', 'female'])
+            ->where('name', 'like', '%as%')
             ->get();
 
         // reference field on where
         $list = CharacterModel::getCriteria()
             ->select('name,home')
-            ->where('name','like', '%as%')
+            ->where('name', 'like', '%as%')
             ->get();
 
 
@@ -109,151 +111,158 @@ function test()
 
         $list = CharacterModel::getCriteria()
             ->orderBy('idCharacter')
-            ->chunk(100, function($frames) {
+            ->chunk(100, function ($frames) {
                 //print_r(count($frames) . PHP_EOL);
                 //return false;
-        });
+            });
 
-//        $list = FrameModel::getCriteria()
-//            ->where('name', '=', 'Causalidade')
-//            ->where('idLanguage', '=', 1)
-//            ->exists();
+        $list = CharacterModel::getCriteria()
+            ->where('idCharacter', '=', 100)
+            ->exists();
 
         // aggregate
-//        $list = FrameModel::getCriteria()
-//            ->count();
+        $list = CharacterModel::getCriteria()
+            ->count();
 
-//        $list = FrameModel::getCriteria()
-//            ->where('idLanguage','=',1)
-//            ->count();
+        $list = CharacterModel::getCriteria()
+            ->where('home', '=', 'Tatooine')
+            ->count();
 
-//        $list = FrameModel::getCriteria()
-//            ->max('idLanguage');
+        $list = PlanetModel::getCriteria()
+            ->max('diameter');
 
         // order
-//        $list = FrameModel::getCriteria()
-//            ->select('idFrame,name')
-//            ->where('idLanguage','=', 1)
-//            ->orderBy('name')
-//            ->get();
-//
-//        $list = FrameModel::getCriteria()
-//            ->select('idFrame,name')
-//            ->where('idLanguage','=', 1)
-//            ->orderBy('name','desc')
-//            ->get();
-//
-//        $list = FrameModel::getCriteria()
-//            ->select('idFrame,name')
-//            ->where('idLanguage','=', 1)
-//            ->latest('name')
-//            ->first();
+        $list = CharacterModel::getCriteria()
+            ->select('name')
+            ->orderBy('name')
+            ->get();
+
+        $list = CharacterModel::getCriteria()
+            ->select('name')
+            ->orderBy('name', 'desc')
+            ->get();
+
+        $list = CharacterModel::getCriteria()
+            ->select('name')
+            ->latest('name')
+            ->first();
 
         // groupBy
 
-//        $list = FrameModel::getCriteria()
-//            ->select('idLanguage,count(*)')
-//            ->groupBy('idLanguage')
-//            ->get();
-//
+        $list = CharacterModel::getCriteria()
+            ->select('gender,count(*) as quant')
+            ->groupBy('gender')
+            ->get();
+
         // groupBy + having
-//        $list = FrameModel::getCriteria()
-//            ->select('idLanguage,count(*)')
-//            ->groupBy('idLanguage')
-//            ->having('count(*)', '>', 1307)
-//            ->get();
+        $list = CharacterModel::getCriteria()
+            ->select('gender,count(*) as quant')
+            ->groupBy('gender')
+            ->having('count(*)', '>', 1)
+            ->get();
 
         // groupBy + having alias
-//        $list = FrameModel::getCriteria()
-//            ->select('idLanguage,count(*) as quant')
-//            ->groupBy('idLanguage')
-//            ->having('quant', '>', 1307)
-//            ->get();
+        $list = CharacterModel::getCriteria()
+            ->select('gender,count(*) as quant')
+            ->groupBy('gender')
+            ->having('quant', '>', 1)
+            ->get();
 
         // groupBy + association aggregate function
-//        $list = FrameModel::getCriteria()
-//            ->select('name, count(lus.idLU) as quant')
-//            ->where('idLanguage', '=', 1)
-//            ->groupBy('name')
-//            ->get();
+        $list = CharacterModel::getCriteria()
+            ->select('name, count(films.idFilm) as films')
+            ->groupBy('name')
+            ->get();
 
         // expressions
 
-//        $list = FrameModel::getCriteria()
-//            ->select('substr(name,1,1) as first', 'count(lus.idLU)')
-//            ->groupBy('first')
-//            ->get();
+        $list = CharacterModel::getCriteria()
+            ->select('substr(name,1,1) as first', 'count(films.idFilm) as quant')
+            ->groupBy('first')
+            ->get();
 
-//        $list = FrameModel::getCriteria()
-//            ->select("concat(name,'-',entity.entries.language.language) as c")
-//            ->get()
-//            ->toArray();
+        $list = CharacterModel::getCriteria()
+            ->select("concat(name,'-',vehicles.films.director) as d")
+            ->orderBy('d')
+            ->get()
+            ->toArray();
 
-        // whereExists
+        // whereExists - subquery
 
-//        $list = FrameModel::getCriteria()
-//            ->alias('f')
-//            ->select('f.frame')
-//            ->whereExists(
-//                LUModel::getCriteria()
-//                ->select('idLU')
-//                ->whereColumn('f.idFrame','idFrame')
-//            )
-//            ->get();
+        $list = CharacterModel::getCriteria()
+            ->alias('c')
+            ->select('c.name')
+            ->whereExists(
+                VehicleModel::getCriteria()
+                    ->select('idVehicle')
+                    ->whereColumn('c.name', 'name')
+            )
+            ->get();
 
         // subqueries
 
-//        $list = FrameModel::getCriteria()
-//            ->select('frame')
-//            ->where('idFrame', 'IN',
-//                LUModel::getCriteria()
-//                    ->select('idFrame')
-//                    ->where('name','like', '%.prep')
-//            )
-//            ->get();
+        $list = CharacterModel::getCriteria()
+            ->select('name')
+            ->where('home', 'IN',
+                PlanetModel::getCriteria()
+                    ->select('name')
+                    ->where('climate', '=', 'temperate')
+            )
+            ->get();
 
-//        $list = FrameModel::getCriteria()
-//            ->select('frame, l.name')
-//            ->joinSub(LUModel::getCriteria()
-//                    ->select('idFrame,name')
-//                    ->where('name','like', '%.prep'),
-//                'l','idFrame','=','l.idFrame'
-//            )
-//            ->get();
+        $list = CharacterModel::getCriteria()
+            ->select('name, p.name planet')
+            ->joinSub(PlanetModel::getCriteria()
+                ->select('name')
+                ->where('climate', '=', 'temperate'),
+                'p', 'home', '=', 'p.name'
+            )
+            ->get();
 
         // union
 
-//        $list = FrameModel::getCriteria()
-//            ->select('frame')
-//            ->where('frame','like','Co%')
-//            ->orWhere('frame','like','De%')
-//            ->union(FrameModel::getCriteria()
-//                    ->select('frame')
-//                    ->where('frame','like', 'Co%')
-//            )
-//            ->get();
-//
-//        $list = FrameModel::getCriteria()
-//            ->select('frame')
-//            ->where('name','like','Co%')
-//            ->orWhere('name','like','De%')
-//            ->unionAll(FrameModel::getCriteria()
-//                ->select('frame')
-//                ->where('name','like', 'Co%')
-//            )
-//            ->get();
+        $list = CharacterModel::getCriteria()
+            ->select('name')
+            ->where('name','like','C%')
+            ->orWhere('name','like','D%')
+            ->union(CharacterModel::getCriteria()
+                    ->select('name')
+                    ->where('name','like', 'C%')
+            )
+            ->get();
+
+        $list = CharacterModel::getCriteria()
+            ->select('name')
+            ->where('name','like','C%')
+            ->orWhere('name','like','D%')
+            ->unionAll(CharacterModel::getCriteria()
+                ->select('name')
+                ->where('name','like', 'C%')
+            )
+            ->get();
 
         // where
 
-//        $list = FrameModel::getCriteria()
-//            ->select('name,idLanguage')
-//            ->whereColumn('frame','name')
-//            ->get();
+        $list = CharacterModel::getCriteria()
+            ->select('name,films.director')
+            ->whereColumn('name','films.director')
+            ->get();
 
-//        $list = FrameModel::getCriteria()
-//            ->select('name,idLanguage')
-//            ->whereIn('substr(name,1,1)',['A','C'])
-//            ->get();
+        $list = CharacterModel::getCriteria()
+            ->select('name,films.director')
+            ->whereIn('substr(name,1,1)',['A','C'])
+            ->get();
+
+        // forced join
+
+        $list = CharacterModel::getCriteria()
+            ->join(PlanetModel::class,'p','idPlanet','=','p.idPlanet')
+            ->select('name,p.name planet')
+            ->get();
+
+        // association
+
+        $list = CharacterModel::geAssociation()
 
         print_r($list);
 
