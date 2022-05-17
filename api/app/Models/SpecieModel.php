@@ -2,7 +2,10 @@
 
 namespace App\Models;
 
-class SpecieModel extends \Orkester\MVC\MModel
+use Orkester\Persistence\Enum\Key;
+use Orkester\Persistence\Enum\Type;
+
+class SpecieModel extends \Orkester\Persistence\Model
 {
 
     public static array $map = [
@@ -23,4 +26,24 @@ class SpecieModel extends \Orkester\MVC\MModel
             'updatedAt' => ['type' => 'datetime'],
         ]
     ];
+
+    public static function map(): void
+    {
+        parent::map();
+        self::table('specie');
+        self::attribute('idSpecie', key: Key::PRIMARY);
+        self::attribute('objectId');
+        self::attribute('eyeColors');
+        self::attribute('skinColors');
+        self::attribute('hairColors');
+        self::attribute('classification');
+        self::attribute('name');
+        self::attribute('designation');
+        self::attribute('language');
+        self::attribute('averageLifespan', type: Type::INTEGER);
+        self::attribute('averageHeight', type: Type::INTEGER);
+        self::attribute('createdAt', type: Type::DATETIME);
+        self::attribute('updatedAt', type: Type::DATETIME);
+    }
+
 }

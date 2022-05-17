@@ -11,16 +11,19 @@ return [
         'dispatch' => 'index.php',
         'tmpPath' => sys_get_temp_dir(),
         'locale' => array("pt_BR.utf8", "ptb"), // linux: check installed locales - "locale -a"
-        'fetchStyle' => \FETCH_ASSOC,
+//        'fetchStyle' => \FETCH_ASSOC,
         'language' => 'en',
         'db' => 'default',
     ],
     'logs' => [
-        'peer' => 'host.docker.internal',
-        'port' => 9999,
         'channel' => 'orkester',
-        'path' => '/var/log/orkester',
+        'path' => sys_get_temp_dir(),
         'level' => 2,
+        'handler' => "socket",
+        'peer' => isset($_SERVER['REMOTE_ADDR']) ? 'host.docker.internal' : 'localhost',
+        //'strict' => '127.0.0.1',
+        'port' => 8609,
+        'console' => 1,
         'errorCodes' => [
             E_ERROR,
             E_WARNING,

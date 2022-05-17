@@ -1,0 +1,215 @@
+[16-May-2022 23:38:22 UTC] PHP Warning:  require(/server/vendor/autoload.php): Failed to open stream: No such file or directory in /server/app/Offline/database/test_persistence.php on line 13
+[16-May-2022 23:38:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/server/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /server/app/Offline/database/test_persistence.php:13
+Stack trace:
+#0 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 13
+[16-May-2022 23:39:13 UTC] PHP Warning:  require(/server/app/vendor/autoload.php): Failed to open stream: No such file or directory in /server/app/Offline/database/test_persistence.php on line 13
+[16-May-2022 23:39:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/server/app/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /server/app/Offline/database/test_persistence.php:13
+Stack trace:
+#0 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 13
+[16-May-2022 23:39:24 UTC] PHP Warning:  require(/server/app/Offline/vendor/autoload.php): Failed to open stream: No such file or directory in /server/app/Offline/database/test_persistence.php on line 13
+[16-May-2022 23:39:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/server/app/Offline/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /server/app/Offline/database/test_persistence.php:13
+Stack trace:
+#0 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 13
+[16-May-2022 23:39:42 UTC] PHP Warning:  require(/server/vendor/autoload.php): Failed to open stream: No such file or directory in /server/app/Offline/database/test_persistence.php on line 13
+[16-May-2022 23:39:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/server/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /server/app/Offline/database/test_persistence.php:13
+Stack trace:
+#0 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 13
+[16-May-2022 23:40:00 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /server/app/Offline/database/test_persistence.php on line 12
+[16-May-2022 23:40:00 UTC] PHP Warning:  require(/server/vendor/autoload.php): Failed to open stream: No such file or directory in /server/app/Offline/database/test_persistence.php on line 14
+[16-May-2022 23:40:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/server/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /server/app/Offline/database/test_persistence.php:14
+Stack trace:
+#0 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 14
+[16-May-2022 23:40:15 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /server/app/Offline/database/test_persistence.php on line 12
+[16-May-2022 23:40:15 UTC] PHP Warning:  require(/server/api/vendor/autoload.php): Failed to open stream: No such file or directory in /server/app/Offline/database/test_persistence.php on line 14
+[16-May-2022 23:40:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/server/api/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /server/app/Offline/database/test_persistence.php:14
+Stack trace:
+#0 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 14
+[16-May-2022 23:40:22 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /server/app/Offline/database/test_persistence.php on line 12
+[16-May-2022 23:40:22 UTC] PHP Warning:  require(/server/api/vendor/autoload.php): Failed to open stream: No such file or directory in /server/app/Offline/database/test_persistence.php on line 14
+[16-May-2022 23:40:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/server/api/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /server/app/Offline/database/test_persistence.php:14
+Stack trace:
+#0 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 14
+[16-May-2022 23:46:28 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /server/app/Offline/database/test_persistence.php on line 12
+[16-May-2022 23:46:28 UTC] PHP Warning:  require(/server/api/vendor/autoload.php): Failed to open stream: No such file or directory in /server/app/Offline/database/test_persistence.php on line 14
+[16-May-2022 23:46:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/server/api/vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /server/app/Offline/database/test_persistence.php:14
+Stack trace:
+#0 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 14
+[16-May-2022 23:46:49 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /server/app/Offline/database/test_persistence.php on line 12
+[16-May-2022 23:46:49 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "FETCH_ASSOC" in /server/conf/conf.php:14
+Stack trace:
+#0 /server/vendor/elymatos/orkester/Manager.php(235): require()
+#1 /server/vendor/elymatos/orkester/Manager.php(150): Orkester\Manager::loadConf()
+#2 /server/app/Offline/database/test_persistence.php(19): Orkester\Manager::init()
+#3 /server/app/Offline/database/test_persistence.php(524): init()
+#4 {main}
+  thrown in /server/conf/conf.php on line 14
+[16-May-2022 23:47:02 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /server/app/Offline/database/test_persistence.php on line 12
+[16-May-2022 20:47:02 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property Orkester\Services\MLog::$handler of type string in /server/vendor/elymatos/orkester/Services/MLog.php:35
+Stack trace:
+#0 /server/vendor/elymatos/orkester/Manager.php(222): Orkester\Services\MLog->__construct()
+#1 /server/app/Offline/database/test_persistence.php(19): Orkester\Manager::init()
+#2 /server/app/Offline/database/test_persistence.php(524): init()
+#3 {main}
+  thrown in /server/vendor/elymatos/orkester/Services/MLog.php on line 35
+[16-May-2022 23:49:15 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /server/app/Offline/database/test_persistence.php on line 12
+[16-May-2022 20:49:15 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property Orkester\Services\MLog::$handler of type string in /server/vendor/elymatos/orkester/Services/MLog.php:35
+Stack trace:
+#0 /server/vendor/elymatos/orkester/Manager.php(222): Orkester\Services\MLog->__construct()
+#1 /server/app/Offline/database/test_persistence.php(19): Orkester\Manager::init()
+#2 /server/app/Offline/database/test_persistence.php(524): init()
+#3 {main}
+  thrown in /server/vendor/elymatos/orkester/Services/MLog.php on line 35
+[16-May-2022 23:50:13 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /server/app/Offline/database/test_persistence.php on line 12
+[16-May-2022 21:11:27 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Orkester\Persistence\Criteria\Criteria::fk(): Return value must be of type object, null returned in /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php:361
+Stack trace:
+#0 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(277): Orkester\Persistence\Criteria\Criteria->fk()
+#1 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(336): Orkester\Persistence\Criteria\Criteria->resolveOperandPath()
+#2 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(320): Orkester\Persistence\Criteria\Criteria->resolveOperand()
+#3 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(338): Orkester\Persistence\Criteria\Criteria->resolveOperandField()
+#4 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(224): Orkester\Persistence\Criteria\Criteria->resolveOperand()
+#5 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(110): Orkester\Persistence\Criteria\Criteria->resolveField()
+#6 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(102): Orkester\Persistence\Criteria\Criteria->columns()
+#7 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(68): Orkester\Persistence\Criteria\Criteria->columns()
+#8 /server/vendor/illuminate/database/Query/Builder.php(2527): Orkester\Persistence\Criteria\Criteria->Orkester\Persistence\Criteria\{closure}()
+#9 /server/vendor/illuminate/database/Query/Builder.php(2540): Illuminate\Database\Query\Builder->applyBeforeQueryCallbacks()
+#10 /server/vendor/illuminate/database/Query/Builder.php(2630): Illuminate\Database\Query\Builder->toSql()
+#11 /server/vendor/illuminate/database/Query/Builder.php(2618): Illuminate\Database\Query\Builder->runSelect()
+#12 /server/vendor/illuminate/database/Query/Builder.php(3152): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#13 /server/vendor/illuminate/database/Query/Builder.php(2619): Illuminate\Database\Query\Builder->onceWithColumns()
+#14 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(177): Illuminate\Database\Query\Builder->get()
+#15 /server/app/Offline/database/test_persistence.php(30): Orkester\Persistence\Criteria\Criteria->__call()
+#16 /server/app/Offline/database/test_persistence.php(525): test()
+#17 {main}
+  thrown in /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php on line 361
+[17-May-2022 11:25:51 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Orkester\Persistence\Criteria\Criteria::columnName(): Argument #1 ($className) must be of type string, null given, called in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php on line 97 and defined in /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php:208
+Stack trace:
+#0 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(97): Orkester\Persistence\Criteria\Criteria->columnName()
+#1 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(43): Orkester\Persistence\Criteria\Operand->resolveOperandPath()
+#2 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(122): Orkester\Persistence\Criteria\Operand->resolveOperand()
+#3 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(45): Orkester\Persistence\Criteria\Operand->resolveOperandField()
+#4 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(19): Orkester\Persistence\Criteria\Operand->resolveOperand()
+#5 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(247): Orkester\Persistence\Criteria\Operand->resolve()
+#6 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(110): Orkester\Persistence\Criteria\Criteria->resolveField()
+#7 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(102): Orkester\Persistence\Criteria\Criteria->columns()
+#8 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(68): Orkester\Persistence\Criteria\Criteria->columns()
+#9 /server/vendor/illuminate/database/Query/Builder.php(2527): Orkester\Persistence\Criteria\Criteria->Orkester\Persistence\Criteria\{closure}()
+#10 /server/vendor/illuminate/database/Query/Builder.php(2540): Illuminate\Database\Query\Builder->applyBeforeQueryCallbacks()
+#11 /server/vendor/illuminate/database/Query/Builder.php(2630): Illuminate\Database\Query\Builder->toSql()
+#12 /server/vendor/illuminate/database/Query/Builder.php(2618): Illuminate\Database\Query\Builder->runSelect()
+#13 /server/vendor/illuminate/database/Query/Builder.php(3152): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#14 /server/vendor/illuminate/database/Query/Builder.php(2619): Illuminate\Database\Query\Builder->onceWithColumns()
+#15 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(177): Illuminate\Database\Query\Builder->get()
+#16 /server/app/Offline/database/test_persistence.php(30): Orkester\Persistence\Criteria\Criteria->__call()
+#17 /server/app/Offline/database/test_persistence.php(525): test()
+#18 {main}
+  thrown in /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php on line 208
+[17-May-2022 11:26:46 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Orkester\Persistence\Criteria\Criteria::columnName(): Argument #1 ($className) must be of type string, null given, called in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php on line 98 and defined in /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php:208
+Stack trace:
+#0 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(98): Orkester\Persistence\Criteria\Criteria->columnName()
+#1 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(43): Orkester\Persistence\Criteria\Operand->resolveOperandPath()
+#2 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(123): Orkester\Persistence\Criteria\Operand->resolveOperand()
+#3 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(45): Orkester\Persistence\Criteria\Operand->resolveOperandField()
+#4 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(19): Orkester\Persistence\Criteria\Operand->resolveOperand()
+#5 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(247): Orkester\Persistence\Criteria\Operand->resolve()
+#6 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(110): Orkester\Persistence\Criteria\Criteria->resolveField()
+#7 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(102): Orkester\Persistence\Criteria\Criteria->columns()
+#8 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(68): Orkester\Persistence\Criteria\Criteria->columns()
+#9 /server/vendor/illuminate/database/Query/Builder.php(2527): Orkester\Persistence\Criteria\Criteria->Orkester\Persistence\Criteria\{closure}()
+#10 /server/vendor/illuminate/database/Query/Builder.php(2540): Illuminate\Database\Query\Builder->applyBeforeQueryCallbacks()
+#11 /server/vendor/illuminate/database/Query/Builder.php(2630): Illuminate\Database\Query\Builder->toSql()
+#12 /server/vendor/illuminate/database/Query/Builder.php(2618): Illuminate\Database\Query\Builder->runSelect()
+#13 /server/vendor/illuminate/database/Query/Builder.php(3152): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#14 /server/vendor/illuminate/database/Query/Builder.php(2619): Illuminate\Database\Query\Builder->onceWithColumns()
+#15 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(177): Illuminate\Database\Query\Builder->get()
+#16 /server/app/Offline/database/test_persistence.php(30): Orkester\Persistence\Criteria\Criteria->__call()
+#17 /server/app/Offline/database/test_persistence.php(525): test()
+#18 {main}
+  thrown in /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php on line 208
+[17-May-2022 11:29:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Typed property Orkester\Persistence\Map\AssociationMap::$fromClassName must not be accessed before initialization in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php:97
+Stack trace:
+#0 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(43): Orkester\Persistence\Criteria\Operand->resolveOperandPath()
+#1 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(123): Orkester\Persistence\Criteria\Operand->resolveOperand()
+#2 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(45): Orkester\Persistence\Criteria\Operand->resolveOperandField()
+#3 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(19): Orkester\Persistence\Criteria\Operand->resolveOperand()
+#4 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(247): Orkester\Persistence\Criteria\Operand->resolve()
+#5 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(110): Orkester\Persistence\Criteria\Criteria->resolveField()
+#6 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(102): Orkester\Persistence\Criteria\Criteria->columns()
+#7 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(68): Orkester\Persistence\Criteria\Criteria->columns()
+#8 /server/vendor/illuminate/database/Query/Builder.php(2527): Orkester\Persistence\Criteria\Criteria->Orkester\Persistence\Criteria\{closure}()
+#9 /server/vendor/illuminate/database/Query/Builder.php(2540): Illuminate\Database\Query\Builder->applyBeforeQueryCallbacks()
+#10 /server/vendor/illuminate/database/Query/Builder.php(2630): Illuminate\Database\Query\Builder->toSql()
+#11 /server/vendor/illuminate/database/Query/Builder.php(2618): Illuminate\Database\Query\Builder->runSelect()
+#12 /server/vendor/illuminate/database/Query/Builder.php(3152): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#13 /server/vendor/illuminate/database/Query/Builder.php(2619): Illuminate\Database\Query\Builder->onceWithColumns()
+#14 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(177): Illuminate\Database\Query\Builder->get()
+#15 /server/app/Offline/database/test_persistence.php(30): Orkester\Persistence\Criteria\Criteria->__call()
+#16 /server/app/Offline/database/test_persistence.php(525): test()
+#17 {main}
+  thrown in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php on line 97
+[17-May-2022 11:29:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Typed property Orkester\Persistence\Map\AssociationMap::$fromClassName must not be accessed before initialization in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php:97
+Stack trace:
+#0 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(43): Orkester\Persistence\Criteria\Operand->resolveOperandPath()
+#1 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(123): Orkester\Persistence\Criteria\Operand->resolveOperand()
+#2 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(45): Orkester\Persistence\Criteria\Operand->resolveOperandField()
+#3 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(19): Orkester\Persistence\Criteria\Operand->resolveOperand()
+#4 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(247): Orkester\Persistence\Criteria\Operand->resolve()
+#5 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(110): Orkester\Persistence\Criteria\Criteria->resolveField()
+#6 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(102): Orkester\Persistence\Criteria\Criteria->columns()
+#7 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(68): Orkester\Persistence\Criteria\Criteria->columns()
+#8 /server/vendor/illuminate/database/Query/Builder.php(2527): Orkester\Persistence\Criteria\Criteria->Orkester\Persistence\Criteria\{closure}()
+#9 /server/vendor/illuminate/database/Query/Builder.php(2540): Illuminate\Database\Query\Builder->applyBeforeQueryCallbacks()
+#10 /server/vendor/illuminate/database/Query/Builder.php(2630): Illuminate\Database\Query\Builder->toSql()
+#11 /server/vendor/illuminate/database/Query/Builder.php(2618): Illuminate\Database\Query\Builder->runSelect()
+#12 /server/vendor/illuminate/database/Query/Builder.php(3152): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#13 /server/vendor/illuminate/database/Query/Builder.php(2619): Illuminate\Database\Query\Builder->onceWithColumns()
+#14 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(177): Illuminate\Database\Query\Builder->get()
+#15 /server/app/Offline/database/test_persistence.php(30): Orkester\Persistence\Criteria\Criteria->__call()
+#16 /server/app/Offline/database/test_persistence.php(525): test()
+#17 {main}
+  thrown in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php on line 97
+[17-May-2022 11:31:47 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Orkester\Persistence\Criteria\Criteria::columnName(): Argument #1 ($className) must be of type string, null given, called in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php on line 98 and defined in /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php:208
+Stack trace:
+#0 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(98): Orkester\Persistence\Criteria\Criteria->columnName()
+#1 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(43): Orkester\Persistence\Criteria\Operand->resolveOperandPath()
+#2 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(123): Orkester\Persistence\Criteria\Operand->resolveOperand()
+#3 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(45): Orkester\Persistence\Criteria\Operand->resolveOperandField()
+#4 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(19): Orkester\Persistence\Criteria\Operand->resolveOperand()
+#5 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(247): Orkester\Persistence\Criteria\Operand->resolve()
+#6 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(110): Orkester\Persistence\Criteria\Criteria->resolveField()
+#7 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(102): Orkester\Persistence\Criteria\Criteria->columns()
+#8 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(68): Orkester\Persistence\Criteria\Criteria->columns()
+#9 /server/vendor/illuminate/database/Query/Builder.php(2527): Orkester\Persistence\Criteria\Criteria->Orkester\Persistence\Criteria\{closure}()
+#10 /server/vendor/illuminate/database/Query/Builder.php(2540): Illuminate\Database\Query\Builder->applyBeforeQueryCallbacks()
+#11 /server/vendor/illuminate/database/Query/Builder.php(2630): Illuminate\Database\Query\Builder->toSql()
+#12 /server/vendor/illuminate/database/Query/Builder.php(2618): Illuminate\Database\Query\Builder->runSelect()
+#13 /server/vendor/illuminate/database/Query/Builder.php(3152): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#14 /server/vendor/illuminate/database/Query/Builder.php(2619): Illuminate\Database\Query\Builder->onceWithColumns()
+#15 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(177): Illuminate\Database\Query\Builder->get()
+#16 /server/app/Offline/database/test_persistence.php(30): Orkester\Persistence\Criteria\Criteria->__call()
+#17 /server/app/Offline/database/test_persistence.php(525): test()
+#18 {main}
+  thrown in /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php on line 208
+[17-May-2022 11:33:31 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Orkester\Persistence\Criteria\Operand::__construct(): Argument #3 ($alias) must be of type string, null given, called in /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php on line 246 and defined in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php:11
+Stack trace:
+#0 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(246): Orkester\Persistence\Criteria\Operand->__construct()
+#1 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(107): Orkester\Persistence\Criteria\Criteria->resolveField()
+#2 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(68): Orkester\Persistence\Criteria\Criteria->columns()
+#3 /server/vendor/illuminate/database/Query/Builder.php(2527): Orkester\Persistence\Criteria\Criteria->Orkester\Persistence\Criteria\{closure}()
+#4 /server/vendor/illuminate/database/Query/Builder.php(2540): Illuminate\Database\Query\Builder->applyBeforeQueryCallbacks()
+#5 /server/vendor/illuminate/database/Query/Builder.php(2630): Illuminate\Database\Query\Builder->toSql()
+#6 /server/vendor/illuminate/database/Query/Builder.php(2618): Illuminate\Database\Query\Builder->runSelect()
+#7 /server/vendor/illuminate/database/Query/Builder.php(3152): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#8 /server/vendor/illuminate/database/Query/Builder.php(2619): Illuminate\Database\Query\Builder->onceWithColumns()
+#9 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(177): Illuminate\Database\Query\Builder->get()
+#10 /server/app/Offline/database/test_persistence.php(41): Orkester\Persistence\Criteria\Criteria->__call()
+#11 /server/app/Offline/database/test_persistence.php(525): test()
+#12 {main}
+  thrown in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php on line 11

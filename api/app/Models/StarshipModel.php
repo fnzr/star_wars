@@ -2,7 +2,10 @@
 
 namespace App\Models;
 
-class StarshipModel extends \Orkester\MVC\MModel
+use Orkester\Persistence\Enum\Key;
+use Orkester\Persistence\Enum\Type;
+
+class StarshipModel extends \Orkester\Persistence\Model
 {
 
     public static array $map = [
@@ -32,4 +35,32 @@ class StarshipModel extends \Orkester\MVC\MModel
 
         ]
     ];
+
+    public static function map(): void
+    {
+        parent::map();
+        self::table('starship');
+        self::attribute('idStarship', key: Key::PRIMARY);
+        self::attribute('objectId');
+        self::attribute('consumables', type: Type::INTEGER);
+        self::attribute('name');
+        self::attribute('cargoCapacity', type: Type::INTEGER);
+        self::attribute('passengers', type: Type::INTEGER);
+        self::attribute('maxAtmospheringSpeed', type: Type::INTEGER);
+        self::attribute('crew', type: Type::INTEGER);
+        self::attribute('length', type: Type::INTEGER);
+        self::attribute('model');
+        self::attribute('costInCredits', type: Type::INTEGER);
+        self::attribute('manufacturer', type: Type::INTEGER);
+        self::attribute('MGLT', type: Type::INTEGER);
+        self::attribute('starshipClass');
+        self::attribute('surfaceWater');
+        self::attribute('hyperdriveRating');
+        self::attribute('createdAt', type: Type::DATETIME);
+        self::attribute('updatedAt', type: Type::DATETIME);
+        self::associationMany('pilots', model: CharacterModel::class, associativeTable: 'character_starship');
+        self::associationMany('films', model: FilmModel::class, associativeTable: 'film_starship');
+
+    }
+
 }

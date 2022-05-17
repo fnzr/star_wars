@@ -2,7 +2,10 @@
 
 namespace App\Models;
 
-class VehicleModel extends \Orkester\MVC\MModel
+use Orkester\Persistence\Enum\Key;
+use Orkester\Persistence\Enum\Type;
+
+class VehicleModel extends \Orkester\Persistence\Model
 {
 
     public static array $map = [
@@ -24,4 +27,23 @@ class VehicleModel extends \Orkester\MVC\MModel
             'films' => ['model' => FilmModel::class, 'type' => 'associative', 'table' => 'film_vehicle'],
         ]
     ];
+
+    public static function map(): void
+    {
+        parent::map();
+        self::table('vehicle');
+        self::attribute('idVehicle', key: Key::PRIMARY);
+        self::attribute('objectId');
+        self::attribute('name');
+        self::attribute('cargoCapacity', type: Type::INTEGER);
+        self::attribute('maxAtmospheringSpeed', type: Type::INTEGER);
+        self::attribute('crew', type: Type::INTEGER);
+        self::attribute('length', type: Type::INTEGER);
+        self::attribute('model');
+        self::attribute('manufacturer');
+        self::attribute('vehicleClass');
+        self::associationMany('pilots', model: CharacterModel::class, associativeTable: 'character_vehicle');
+        self::associationMany('films', model: FilmModel::class, associativeTable: 'film_vehicle');
+    }
+
 }

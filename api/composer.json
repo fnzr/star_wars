@@ -20,7 +20,7 @@
     }
   ],
   "require": {
-    "elymatos/orkester": "dev-graphql"
+    "elymatos/orkester": "dev-database"
   },
   "require-dev": {
     "phpunit/phpunit": "^9"
