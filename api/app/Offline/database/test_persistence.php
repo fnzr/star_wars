@@ -26,7 +26,7 @@ function test()
 {
     try {
         init();
-
+/*
         // all
         $list = CharacterModel::getCriteria()
             ->get();
@@ -41,7 +41,7 @@ function test()
             ->select('idCharacter, name')
             ->where('name', 'like', '%Ken%')
             ->get();
-//
+
         $list = CharacterModel::getCriteria()
             ->alias('c')
             ->select('c.name')
@@ -101,7 +101,7 @@ function test()
             ->first();
 
         $list = CharacterModel::getCriteria()
-            ->value('name');
+            ->value('home');
 
         $list = CharacterModel::getCriteria()
             ->find(91);
@@ -111,8 +111,8 @@ function test()
 
         $list = CharacterModel::getCriteria()
             ->orderBy('idCharacter')
-            ->chunk(100, function ($frames) {
-                //print_r(count($frames) . PHP_EOL);
+            ->chunk(10, function ($characters) {
+                print_r(count($characters) . PHP_EOL);
                 //return false;
             });
 
@@ -192,7 +192,7 @@ function test()
         $list = CharacterModel::getCriteria()
             ->alias('c')
             ->select('c.name')
-            ->whereExists(
+            ->whereExistsCriteria(
                 VehicleModel::getCriteria()
                     ->select('idVehicle')
                     ->whereColumn('c.name', 'name')
@@ -212,7 +212,7 @@ function test()
 
         $list = CharacterModel::getCriteria()
             ->select('name, p.name planet')
-            ->joinSub(PlanetModel::getCriteria()
+            ->joinSubCriteria(PlanetModel::getCriteria()
                 ->select('name')
                 ->where('climate', '=', 'temperate'),
                 'p', 'home', '=', 'p.name'
@@ -256,14 +256,14 @@ function test()
         // forced join
 
         $list = CharacterModel::getCriteria()
-            ->join(PlanetModel::class,'p','idPlanet','=','p.idPlanet')
+            ->joinClass(PlanetModel::class,'p','idPlanet','=','p.idPlanet')
             ->select('name,p.name planet')
             ->get();
 
         // association
 
         $list = CharacterModel::getAssociation('films.*', 91);
-
+*/
         // binding
 
         $criteria = CharacterModel::getCriteria()
@@ -271,8 +271,9 @@ function test()
             ->where('idCharacter', '=', ':id');
 
         for ($i = 91; $i < 100; $i++) {
-            $list = $criteria->parameters(['id' => $i])->get()->toArray();
-            print_r($list);
+            $list = $criteria->parameters(['id' => $i])
+                ->get()
+                ->toArray();
         }
 
         print_r($list);
