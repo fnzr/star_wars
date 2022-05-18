@@ -262,7 +262,18 @@ function test()
 
         // association
 
-        $list = CharacterModel::geAssociation()
+        $list = CharacterModel::getAssociation('films.*', 91);
+
+        // binding
+
+        $criteria = CharacterModel::getCriteria()
+            ->select('name')
+            ->where('idCharacter', '=', ':id');
+
+        for ($i = 91; $i < 100; $i++) {
+            $list = $criteria->parameters(['id' => $i])->get()->toArray();
+            print_r($list);
+        }
 
         print_r($list);
 

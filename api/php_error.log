@@ -213,3 +213,71 @@ Stack trace:
 #11 /server/app/Offline/database/test_persistence.php(525): test()
 #12 {main}
   thrown in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php on line 11
+[17-May-2022 19:45:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\CharacterModel::geAssociation() in /server/app/Offline/database/test_persistence.php:265
+Stack trace:
+#0 /server/app/Offline/database/test_persistence.php(535): test()
+#1 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 265
+[17-May-2022 19:45:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\CharacterModel::geAssociation() in /server/app/Offline/database/test_persistence.php:265
+Stack trace:
+#0 /server/app/Offline/database/test_persistence.php(535): test()
+#1 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 265
+[17-May-2022 19:50:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\CharacterModel::geAssociation() in /server/app/Offline/database/test_persistence.php:265
+Stack trace:
+#0 /server/app/Offline/database/test_persistence.php(535): test()
+#1 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 265
+[17-May-2022 19:53:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\CharacterModel::geAssociation() in /server/app/Offline/database/test_persistence.php:265
+Stack trace:
+#0 /server/app/Offline/database/test_persistence.php(535): test()
+#1 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 265
+[17-May-2022 19:55:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\CharacterModel::geAssociation() in /server/app/Offline/database/test_persistence.php:265
+Stack trace:
+#0 /server/app/Offline/database/test_persistence.php(535): test()
+#1 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 265
+[17-May-2022 19:56:10 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Orkester\Persistence\Criteria\Criteria::getAssociationMap(): Return value must be of type object, null returned in /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php:230
+Stack trace:
+#0 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(85): Orkester\Persistence\Criteria\Criteria->getAssociationMap()
+#1 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(45): Orkester\Persistence\Criteria\Operand->resolveOperandPath()
+#2 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(20): Orkester\Persistence\Criteria\Operand->resolveOperand()
+#3 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(251): Orkester\Persistence\Criteria\Operand->resolve()
+#4 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(112): Orkester\Persistence\Criteria\Criteria->resolveField()
+#5 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(68): Orkester\Persistence\Criteria\Criteria->columns()
+#6 /server/vendor/illuminate/database/Query/Builder.php(2527): Orkester\Persistence\Criteria\Criteria->Orkester\Persistence\Criteria\{closure}()
+#7 /server/vendor/illuminate/database/Query/Builder.php(2540): Illuminate\Database\Query\Builder->applyBeforeQueryCallbacks()
+#8 /server/vendor/illuminate/database/Query/Builder.php(2630): Illuminate\Database\Query\Builder->toSql()
+#9 /server/vendor/illuminate/database/Query/Builder.php(2618): Illuminate\Database\Query\Builder->runSelect()
+#10 /server/vendor/illuminate/database/Query/Builder.php(3152): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#11 /server/vendor/illuminate/database/Query/Builder.php(2619): Illuminate\Database\Query\Builder->onceWithColumns()
+#12 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(180): Illuminate\Database\Query\Builder->get()
+#13 /server/vendor/elymatos/orkester/Persistence/Model.php(279): Orkester\Persistence\Criteria\Criteria->__call()
+#14 /server/app/Offline/database/test_persistence.php(265): Orkester\Persistence\Model::getAssociation()
+#15 /server/app/Offline/database/test_persistence.php(535): test()
+#16 {main}
+  thrown in /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php on line 230
+[17-May-2022 21:31:02 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: str_starts_with() expects exactly 2 arguments, 1 given in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php:47
+Stack trace:
+#0 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(47): str_starts_with()
+#1 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(20): Orkester\Persistence\Criteria\Operand->resolveOperand()
+#2 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(251): Orkester\Persistence\Criteria\Operand->resolve()
+#3 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(103): Orkester\Persistence\Criteria\Criteria->resolveField()
+#4 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(68): Orkester\Persistence\Criteria\Criteria->columns()
+#5 /server/vendor/illuminate/database/Query/Builder.php(2527): Orkester\Persistence\Criteria\Criteria->Orkester\Persistence\Criteria\{closure}()
+#6 /server/vendor/illuminate/database/Query/Builder.php(2540): Illuminate\Database\Query\Builder->applyBeforeQueryCallbacks()
+#7 /server/vendor/illuminate/database/Query/Builder.php(2630): Illuminate\Database\Query\Builder->toSql()
+#8 /server/vendor/illuminate/database/Query/Builder.php(2618): Illuminate\Database\Query\Builder->runSelect()
+#9 /server/vendor/illuminate/database/Query/Builder.php(3152): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#10 /server/vendor/illuminate/database/Query/Builder.php(2619): Illuminate\Database\Query\Builder->onceWithColumns()
+#11 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(180): Illuminate\Database\Query\Builder->get()
+#12 /server/app/Offline/database/test_persistence.php(32): Orkester\Persistence\Criteria\Criteria->__call()
+#13 /server/app/Offline/database/test_persistence.php(546): test()
+#14 {main}
+  thrown in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php on line 47
+[17-May-2022 21:31:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /server/app/Offline/database/test_persistence.php:274
+Stack trace:
+#0 /server/app/Offline/database/test_persistence.php(546): test()
+#1 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 274
