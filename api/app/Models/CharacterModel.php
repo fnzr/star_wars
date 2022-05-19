@@ -46,6 +46,7 @@ class CharacterModel extends \Orkester\Persistence\Model
         self::attribute('height', type: Type::INTEGER);
         self::attribute('eyeColor');
         self::attribute('mass', type: Type::INTEGER);
+        self::attribute('corporalMass',field:'mass', type: Type::INTEGER);
         self::attribute('birthYear');
 //        self::attribute('modelVehicles',reference: 'vehicles.model');
         self::attribute('home',reference: 'homeworld.name');

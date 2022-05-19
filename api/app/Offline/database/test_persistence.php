@@ -26,10 +26,11 @@ function test()
 {
     try {
         init();
-
         // all
         $list = CharacterModel::getCriteria()
             ->get();
+        print_r($list);
+
 
         // basic where
         $list = CharacterModel::getCriteria()
@@ -223,21 +224,21 @@ function test()
 
         $list = CharacterModel::getCriteria()
             ->select('name')
-            ->where('name','like','C%')
-            ->orWhere('name','like','D%')
+            ->where('name', 'like', 'C%')
+            ->orWhere('name', 'like', 'D%')
             ->union(CharacterModel::getCriteria()
-                    ->select('name')
-                    ->where('name','like', 'C%')
+                ->select('name')
+                ->where('name', 'like', 'C%')
             )
             ->get();
 
         $list = CharacterModel::getCriteria()
             ->select('name')
-            ->where('name','like','C%')
-            ->orWhere('name','like','D%')
+            ->where('name', 'like', 'C%')
+            ->orWhere('name', 'like', 'D%')
             ->unionAll(CharacterModel::getCriteria()
                 ->select('name')
-                ->where('name','like', 'C%')
+                ->where('name', 'like', 'C%')
             )
             ->get();
 
@@ -245,18 +246,18 @@ function test()
 
         $list = CharacterModel::getCriteria()
             ->select('name,films.director')
-            ->whereColumn('name','films.director')
+            ->whereColumn('name', 'films.director')
             ->get();
 
         $list = CharacterModel::getCriteria()
             ->select('name,films.director')
-            ->whereIn('substr(name,1,1)',['A','C'])
+            ->whereIn('substr(name,1,1)', ['A', 'C'])
             ->get();
 
         // forced join
 
         $list = CharacterModel::getCriteria()
-            ->joinClass(PlanetModel::class,'p','idPlanet','=','p.idPlanet')
+            ->joinClass(PlanetModel::class, 'p', 'idPlanet', '=', 'p.idPlanet')
             ->select('name,p.name planet')
             ->get();
 
@@ -281,7 +282,7 @@ function test()
         $condition = false;
         $criteria = CharacterModel::getCriteria()
             ->select('name')
-            ->when($condition, function($criteria, $condition) {
+            ->when($condition, function ($criteria, $condition) {
                 $criteria->where('name', 'like', 'A%');
             }, function ($criteria, $condition) {
                 $criteria->where('name', 'like', 'B%');
@@ -290,6 +291,7 @@ function test()
 
         print_r($list);
 
+        // save - delete
 
         $character = CharacterModel::find(91);
         $character->skinColor = 'black';
@@ -309,284 +311,107 @@ function test()
             'skinColor' => 'pale'
         ];
         $id = CharacterModel::save($object);
-        print_r(PHP_EOL. $id . PHP_EOL);
+        print_r(PHP_EOL . $id . PHP_EOL);
         CharacterModel::delete($id);
 
-
-
-
-        /*
-                $frame = FrameModel::getById(1);
-                $frame->active = 0;
-                FrameModel::save($frame);
-                $frame = FrameModel::getById(1);
-
-                $object = (object)[
-                    'idEntity' => null,
-                    'type' => 'FR',
-                    'alias' => 'fr_para_teste5',
-                    'timeline' => ''
-                ];
-                EntityModel::save($object);
-
-                EntityModel::delete($object->idEntity);
-        */
-        /*
-        $list = FrameModel::getCriteria()
-            ->asResult();
-
-        $list = FrameModel::getCriteria()
-            ->where('name', '=', 'Causation')
-            ->asResult();
-        $list = FrameModel::getCriteria()
-            ->where('name', 'like', 'Causat%')
-            ->asResult();
-        $list = FrameModel::getCriteria()
-            ->where('name', 'in', ['Causation', 'Process'])
-            ->asResult();
-        $list = FrameModel::getCriteria()
-            ->select('entries.name,entries.idLanguage')
-            ->where('name', 'in', ['Causation', 'Process'])
-            ->asResult();
-
-        $list = FrameModel::getCriteria()
-            ->select('name,entries.name,entries.language.language')
-            ->where('name', 'in', ['Causation', 'Process'])
-            ->asResult();
-        $list = FrameModel::getCriteria()
-            ->select('idFrame,entry, entries.name, entries.language.language as lang')
-            ->where('entry', 'IN', ['frm_causation', 'frm_event'])
-            ->where('lang', '=', 'pt')
-            ->asResult();
-        $list = FrameModel::getCriteria()
-            ->select('idFrame,entry, lus.name, lus.lemma.name as lemmaName, lus.lemma.pos.POS as lemmaPos')
-            ->where('entry', 'IN', ['frm_causation', 'frm_event'])
-            ->where('lemmaPos', '=', 'N')
-            ->asResult();
-        $list = FrameModel::getCriteria()
-            ->select('name, relations.relationType, relations.entity2Type')
-            ->where('entry', 'IN', ['frm_causation', 'frm_event'])
-            ->asResult();
-
-        $list = FrameModel::getCriteria()
-            ->select('name, relations.relationType, relations.entity2Type, relations.entity2.frame.name')
-            ->where('entry', 'IN', ['frm_causation', 'frm_event'])
-            ->asResult();
-
-        $list = FrameModel::getCriteria()
-            ->associationAlias('relations.entity2.frame', 'f2')
-            ->select('name, relations.relationType, relations.entity2Type, f2.entry')
-            ->where('entry', 'IN', ['frm_causation', 'frm_event'])
-            ->asResult();
-
-        $list = FrameModel::getCriteria()
-            ->associationAlias('relations.entity2.frame', 'f2')
-            ->select('name, relations.relationType, relations.entity2Type, f2.name')
-            ->where('entry', 'IN', ['frm_causation', 'frm_event'])
-            ->asResult();
-
-
-        $list = FrameModel::getCriteria()
-            ->select('name, count(lus.idLU) as quant')
-            ->groupBy('name')
-            ->asResult();
-        $list = FrameModel::getCriteria()
-            ->select('name, count(lus.idLU) as quant')
-            ->groupBy('name')
-            ->having('quant', '>', 50)
-            ->asResult();
-        $list = FrameModel::getCriteria()
-            ->select('substr(name,1,1) as first', 'count(lus.idLU)')
-            ->groupBy('first')
-            ->asResult();
-        $list = FrameModel::getCriteria()
-            ->select("concat(name,'-',entrylanguage.language.language)")
-            ->asResult();
-
-
-        $subcriteria = LUModel::getCriteria()
-            ->select('idFrame')
-            ->where('name', 'LIKE', 'ab%')
-            ->asResult();
-
-        $subcriteria = LUModel::getCriteria()
-            ->alias('L')
-            ->select('idFrame')
-            ->where('name', 'LIKE', 'ab%');
-
-        $list = FrameModel::getCriteria()
-            ->select('L.idFrame')
-            ->distinct(true)
-            ->from($subcriteria)
-            ->asResult();
-
-        $list = FrameModel::getCriteria()
-            ->select('idFrame')
-            ->where('idFrame', 'IN', $subcriteria)
-            ->asResult();
-
-
-        $forced = LUModel::getCriteria()
-            ->select('lu.idFrame, lu.name, lm.name as lemmaName')
-            ->join(LUModel::class . ' lu', LemmaModel::class . ' lm', "lu.idLemma = lm.idLemma", "INNER")
-            ->asResult();
-
-        $list = FrameModel::getCriteria()
-            ->range(3, 40)
-            ->asResult();
-
-        $list = FrameModel::getCriteria()
-            ->select('name')
-            ->where('name', 'like', 'A%')
-            ->union(
-                LUModel::getCriteria()
-                    ->select('name')
-                    ->where('name', 'like', 'a%')
-            )->asResult();
-
-
-        $e = EntityModel::getById(1);
-
-        $e1 = FrameModel::getAssociationOne('entity', 1);
-
-        $list = FrameModel::getCriteria()
-            ->select('entity.*')
-            ->where('idFrame', '=', 1)
-            ->asResult();
-
-        $e2 = FrameModel::getAssociation('entries', 1);
-
-        $e3 = FrameModel::getAssociation('entries.language', 1);
-
-        $e4 = FrameModel::getAssociation('entrylanguage', 1);
-
-        $e5 = FrameModel::getAssociation('lus', 1);
-
-        $criteria = FrameModel::getCriteria()
-            ->select('entity.*')
-            ->where('idFrame', '=', ':id');
-
-        for ($i = 1; $i < 10; $i++) {
-            $list = $criteria->parameters(['id' => $i])->asResult();
-        }
-
-        $preparedStatement = FrameModel::getCriteria()
-            ->select('name, entry')
-            ->where('idFrame', '=', ':id')
-            ->prepare();
-
-        for ($i = 1; $i < 10; $i++) {
-            $list = $preparedStatement->parameters(['id' => $i])->asResult();
-        }
-
-        $frame = FrameModel::getById(1);
-        $frame->active = 1;
-        FrameModel::save($frame);
-        $frame = FrameModel::getById(1);
-        $frame->active = 0;
-        FrameModel::save($frame);
-        $frame = FrameModel::getById(1);
+        // insert
 
         $object = (object)[
-            'idEntity' => null,
-            'type' => 'FR',
-            'alias' => 'fr_para_teste5',
-            'timeline' => ''
+            'name' => 'new character',
+            'skinColor' => 'pale',
+            'corporalMass' => 100
         ];
-        EntityModel::save($object);
+        $id = CharacterModel::insert($object);
+        CharacterModel::delete($id);
 
-        EntityModel::delete($object->idEntity);
+        $insertData = [
+            ['name' => 'new character', 'skinColor' => 'pale'],
+            ['name' => 'new character', 'skinColor' => 'pale'],
+            ['name' => 'new character', 'skinColor' => 'pale'],
+            ['name' => 'new character', 'skinColor' => 'pale'],
+        ];
 
-        $transaction = EntityModel::beginTransaction();
-        try {
-            $rows = [
-                ['alias' => 'fr_para_teste_1', 'type' => 'FR'],
-                ['alias' => 'fr_para_teste_2', 'type' => 'FR'],
-                ['alias' => 'fr_para_teste_3', 'type' => 'FR'],
-                ['alias' => 'fr_para_teste_4', 'type' => 'FR'],
-                ['alias' => 'fr_para_teste_5', 'type' => 'FR'],
-                ['alias' => 'fr_para_teste_6', 'type' => 'FR'],
+        CharacterModel::insert($insertData);
+
+        CharacterModel::insertUsingCriteria(['name', 'skinColor'],
+            CharacterModel::getCriteria()
+                ->select("concat('new', name), skinColor")
+                ->where('name', 'like', '%os%')
+        );
+
+        // update
+
+        $object = (object)[
+            'idCharacter' => 91,
+            'name' => 'The new Bib Fortuna', // Bib Fortuna
+            'skinColor' => 'green',
+            'corporalMass' => 200
+        ];
+        // a pk deve estar no objeto
+        CharacterModel::update($object);
+
+        $object = (object)[
+            'name' => 'Bib Fortuna',
+            'skinColor' => 'pale'
+        ];
+        CharacterModel::updateCriteria()
+            ->where('idCharacter', '=', 91)
+            ->update($object);
+
+        CharacterModel::updateCriteria()
+            ->where('idCharacter', '=', 91)
+            ->increment('height', 5);
+
+        CharacterModel::updateCriteria()
+            ->where('idCharacter', '=', 91)
+            ->decrement('height', 5);
+
+        // delete
+
+        // CharacterModel::delete($id);
+
+        $object = (object)[
+            'name' => 'new character',
+        ];
+        CharacterModel::insert($object);
+        CharacterModel::insert($object);
+
+        CharacterModel::deleteCriteria()
+            ->where('name', '=', 'new character')
+            ->delete();
+
+        // transactions
+
+        Orkester\Manager::addDatabase('default');
+        $conn = Orkester\Manager::getDatabase()->connection('default');
+
+        $conn->transaction(function () {
+            $object = (object)[
+                'name' => 'new character',
             ];
+            CharacterModel::insert($object);
+            CharacterModel::insert($object);
 
-            EntityModel::getInsertCriteria()
-                ->rows($rows)
-                ->execute();
+            CharacterModel::deleteCriteria()
+                ->where('name', '=', 'new character')
+                ->delete();
+        });
 
-            EntityModel::getUpdateCriteria()
-                ->update(['type' => 'DO', 'timeline' => 'new'])
-                ->where('alias', 'like', 'fr_para%')
-                ->execute();
+        $conn->beginTransaction();
+        try {
+            $object = (object)[
+                'name' => 'new character',
+            ];
+            CharacterModel::insert($object);
+            CharacterModel::insert($object);
 
-            EntityModel::getDeleteCriteria()
-                ->where('alias', 'like', 'fr_para_test%')
-                ->execute();
-            $transaction->commit();
-            print_r("done");
-        } catch (EPersistenceException $e) {
-            $transaction->rollback();
+            CharacterModel::deleteCriteria()
+                ->where('name', '=', 'new character')
+                ->delete();
+            $conn->commit();
+        } catch (\Exception $e) {
+            $conn->rollback();
         }
-
-        $list = UserModel::getCriteria()
-            ->asResult();
-        $list = GroupModel::getCriteria()
-            ->asResult();
-        $list = GroupModel::getCriteria()
-            ->select('users.login')
-            ->asResult();
-
-
-        $criteria = LUQualiaModel::getCriteria()
-            ->select('idLURelated')
-            ->where('idLUBase', '=', ':idLUBase');
-        $criteria1 = LUQualiaModel::getCriteria()
-            ->select('idLURelated')
-            ->where('idLUBase', '=', ':idLUBase');
-        $criteria2 = LUQualiaModel::getCriteria()
-            ->select('idLURelated')
-            ->where('idLUBase', 'IN', $criteria1);
-        $criteria3 = LUQualiaModel::getCriteria()
-            ->select('idLURelated')
-            ->where('idLUBase', 'IN', $criteria2);
-        $union = $criteria
-            ->union($criteria2)
-            ->union($criteria3);
-        $statement = LUQualiaModel::getCriteria()
-            ->select('idLURelated')
-            ->from($union)
-            //->union($criteria2)
-            //->union($criteria3)
-            ->where('idLURelated', '=', ':idLURelated')
-            ->prepare();
-        $luqualia = $statement
-            ->parameters(['idLUBase' => 16251, 'idLURelated' => 41377])
-            ->asResult();
-
-        print_r($luqualia);
-
-
-        $list = Manager::getDatabase('fnbr')
-            ->executeQuery('select * from Frame');
-        print_r($list);
-
-
-        $data = (object)[
-            'json' => (object)[
-                'a' => 1,
-                'b' => 'teste'
-            ]
-        ];
-        $cm = \App\Models\old\ZModel::getClassMap();
-        $cm->setDatabaseName('dummy');
-        //$z = \App\Models\ZModel::save($data, $cm);
-        $data = (object)[];
-        $z = \App\Models\old\ZModel::save($data, $cm);
-        $x = ZModel::getCriteria()
-            ->select('*')
-            ->asResult();
-        print_r($x);
-        $y = ZModel::getById(671);
-        print_r($y);
-        */
 
 
     } catch (Exception $e) {
