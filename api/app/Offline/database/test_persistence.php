@@ -26,7 +26,7 @@ function test()
 {
     try {
         init();
-/*
+
         // all
         $list = CharacterModel::getCriteria()
             ->get();
@@ -263,7 +263,7 @@ function test()
         // association
 
         $list = CharacterModel::getAssociation('films.*', 91);
-*/
+
         // binding
 
         $criteria = CharacterModel::getCriteria()
@@ -276,8 +276,61 @@ function test()
                 ->toArray();
         }
 
+        // when
+
+        $condition = false;
+        $criteria = CharacterModel::getCriteria()
+            ->select('name')
+            ->when($condition, function($criteria, $condition) {
+                $criteria->where('name', 'like', 'A%');
+            }, function ($criteria, $condition) {
+                $criteria->where('name', 'like', 'B%');
+            });
+        $list = $criteria->get();
+
         print_r($list);
 
+
+        $character = CharacterModel::find(91);
+        $character->skinColor = 'black';
+        print_r($character);
+        CharacterModel::save($character);
+        $character = CharacterModel::find(91);
+        print_r($character);
+        $object = (object)[
+            'idCharacter' => 91,
+            'skinColor' => 'pale'
+        ];
+        CharacterModel::save($object);
+        $character = CharacterModel::find(91);
+        print_r($character);
+        $object = (object)[
+            'name' => 'new character',
+            'skinColor' => 'pale'
+        ];
+        $id = CharacterModel::save($object);
+        print_r(PHP_EOL. $id . PHP_EOL);
+        CharacterModel::delete($id);
+
+
+
+
+        /*
+                $frame = FrameModel::getById(1);
+                $frame->active = 0;
+                FrameModel::save($frame);
+                $frame = FrameModel::getById(1);
+
+                $object = (object)[
+                    'idEntity' => null,
+                    'type' => 'FR',
+                    'alias' => 'fr_para_teste5',
+                    'timeline' => ''
+                ];
+                EntityModel::save($object);
+
+                EntityModel::delete($object->idEntity);
+        */
         /*
         $list = FrameModel::getCriteria()
             ->asResult();
