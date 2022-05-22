@@ -20,9 +20,9 @@ return [
         'path' => sys_get_temp_dir(),
         'level' => 2,
         'handler' => "socket",
-        'peer' => isset($_SERVER['REMOTE_ADDR']) ? 'host.docker.internal' : 'localhost',
+        'peer' => 'host.docker.internal',
         //'strict' => '127.0.0.1',
-        'port' => 8609,
+        'port' => 9999,
         'console' => 1,
         'errorCodes' => [
             E_ERROR,

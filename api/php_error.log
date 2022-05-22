@@ -281,3 +281,46 @@ Stack trace:
 #0 /server/app/Offline/database/test_persistence.php(546): test()
 #1 {main}
   thrown in /server/app/Offline/database/test_persistence.php on line 274
+[22-May-2022 18:57:50 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in /server/app/Offline/database/test_persistence.php:421
+Stack trace:
+#0 /server/app/Offline/database/test_persistence.php(434): test()
+#1 {main}
+  thrown in /server/app/Offline/database/test_persistence.php on line 421
+[22-May-2022 18:59:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Object of class Orkester\Persistence\Enum\Join could not be converted to string in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php:87
+Stack trace:
+#0 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(48): Orkester\Persistence\Criteria\Operand->resolveOperandPath()
+#1 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(23): Orkester\Persistence\Criteria\Operand->resolveOperand()
+#2 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(318): Orkester\Persistence\Criteria\Operand->resolve()
+#3 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(134): Orkester\Persistence\Criteria\Criteria->resolveField()
+#4 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(71): Orkester\Persistence\Criteria\Criteria->columns()
+#5 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(99): Orkester\Persistence\Criteria\Criteria->parseCriteria()
+#6 /server/vendor/illuminate/database/Query/Builder.php(2527): Orkester\Persistence\Criteria\Criteria->Orkester\Persistence\Criteria\{closure}()
+#7 /server/vendor/illuminate/database/Query/Builder.php(2540): Illuminate\Database\Query\Builder->applyBeforeQueryCallbacks()
+#8 /server/vendor/illuminate/database/Query/Builder.php(2630): Illuminate\Database\Query\Builder->toSql()
+#9 /server/vendor/illuminate/database/Query/Builder.php(2618): Illuminate\Database\Query\Builder->runSelect()
+#10 /server/vendor/illuminate/database/Query/Builder.php(3152): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#11 /server/vendor/illuminate/database/Query/Builder.php(2619): Illuminate\Database\Query\Builder->onceWithColumns()
+#12 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(101): Illuminate\Database\Query\Builder->get()
+#13 /server/app/Offline/database/test_persistence.php(423): Orkester\Persistence\Criteria\Criteria->get()
+#14 /server/app/Offline/database/test_persistence.php(434): test()
+#15 {main}
+  thrown in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php on line 87
+[22-May-2022 19:00:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Orkester\Persistence\Enum\Join::toString() in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php:87
+Stack trace:
+#0 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(48): Orkester\Persistence\Criteria\Operand->resolveOperandPath()
+#1 /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php(23): Orkester\Persistence\Criteria\Operand->resolveOperand()
+#2 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(318): Orkester\Persistence\Criteria\Operand->resolve()
+#3 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(134): Orkester\Persistence\Criteria\Criteria->resolveField()
+#4 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(71): Orkester\Persistence\Criteria\Criteria->columns()
+#5 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(99): Orkester\Persistence\Criteria\Criteria->parseCriteria()
+#6 /server/vendor/illuminate/database/Query/Builder.php(2527): Orkester\Persistence\Criteria\Criteria->Orkester\Persistence\Criteria\{closure}()
+#7 /server/vendor/illuminate/database/Query/Builder.php(2540): Illuminate\Database\Query\Builder->applyBeforeQueryCallbacks()
+#8 /server/vendor/illuminate/database/Query/Builder.php(2630): Illuminate\Database\Query\Builder->toSql()
+#9 /server/vendor/illuminate/database/Query/Builder.php(2618): Illuminate\Database\Query\Builder->runSelect()
+#10 /server/vendor/illuminate/database/Query/Builder.php(3152): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#11 /server/vendor/illuminate/database/Query/Builder.php(2619): Illuminate\Database\Query\Builder->onceWithColumns()
+#12 /server/vendor/elymatos/orkester/Persistence/Criteria/Criteria.php(101): Illuminate\Database\Query\Builder->get()
+#13 /server/app/Offline/database/test_persistence.php(423): Orkester\Persistence\Criteria\Criteria->get()
+#14 /server/app/Offline/database/test_persistence.php(434): test()
+#15 {main}
+  thrown in /server/vendor/elymatos/orkester/Persistence/Criteria/Operand.php on line 87

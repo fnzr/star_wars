@@ -777,13 +777,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FrameNetBrasil/orkester",
-                "reference": "99213a122b9ecbd1f35f77a95ff6e8ecf6854bee"
+                "reference": "4d7b3a426a2ba7f4bccb0d874b034f147c0652ca"
             },
             "require": {
                 "aura/session": "^2.1",
                 "composer/composer": "^2.2",
                 "ext-pdo": "*",
-                "illuminate/database": "9.*",
+                "illuminate/database": "^9.13",
                 "illuminate/events": "^9.11",
                 "monolog/monolog": "^2.3",
                 "php": "^8.0.2",
@@ -815,7 +815,7 @@
                     "email": "admin@ematos.net"
                 }
             ],
-            "time": "2022-05-17T20:30:20+00:00"
+            "time": "2022-05-22T13:25:28+00:00"
         },
         {
             "name": "fig/http-message-util",

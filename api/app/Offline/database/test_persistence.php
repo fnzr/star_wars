@@ -3,6 +3,7 @@
 use App\Models\CharacterModel;
 use App\Models\PlanetModel;
 use App\Models\VehicleModel;
+use Orkester\Persistence\Enum\Join;
 
 $baseDir = realpath(dirname(dirname(dirname(dirname(__FILE__)))));
 print_r($baseDir);
@@ -26,6 +27,7 @@ function test()
 {
     try {
         init();
+        /*
         // all
         $list = CharacterModel::getCriteria()
             ->get();
@@ -75,6 +77,13 @@ function test()
         // select - using associative table
         $list = CharacterModel::getCriteria()
             ->select('idCharacter,name,films.director')
+            ->where('name', 'like', '%Ken%')
+            ->get();
+
+        // select - using associative table + associationType
+        $list = CharacterModel::getCriteria()
+            ->setAssociationType('homeworld.species',Join::LEFT)
+            ->select('idCharacter,name,homeworld.species.name as home')
             ->where('name', 'like', '%Ken%')
             ->get();
 
@@ -412,6 +421,7 @@ function test()
         } catch (\Exception $e) {
             $conn->rollback();
         }
+        */
 
 
     } catch (Exception $e) {
