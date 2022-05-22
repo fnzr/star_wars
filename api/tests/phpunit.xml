@@ -1,4 +1,0 @@
-<phpunit
-        cacheResultFile="./.phpunit.result.cache"
-        bootstrap="bootstrap.php"
-/>

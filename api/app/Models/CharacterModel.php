@@ -46,15 +46,15 @@ class CharacterModel extends \Orkester\Persistence\Model
         self::attribute('height', type: Type::INTEGER);
         self::attribute('eyeColor');
         self::attribute('mass', type: Type::INTEGER);
-        self::attribute('corporalMass',field:'mass', type: Type::INTEGER);
+        self::attribute('corporalMass', field: 'mass', type: Type::INTEGER);
         self::attribute('birthYear');
 //        self::attribute('modelVehicles',reference: 'vehicles.model');
-        self::attribute('home',reference: 'homeworld.name');
+        self::attribute('home', reference: 'homeworld.name');
         self::attribute('createdAt', type: Type::DATETIME);
         self::attribute('updatedAt', type: Type::DATETIME);
         self::associationOne('homeworld', model: PlanetModel::class);
         self::associationMany('species', model: SpecieModel::class, associativeTable: 'character_specie');
-        self::associationMany('starships', model: StarshipModel::class, associativeTable: 'character_startship');
+        self::associationMany('starships', model: StarshipModel::class, associativeTable: 'character_starship');
         self::associationMany('vehicles', model: VehicleModel::class, associativeTable: 'character_vehicle');
         self::associationMany('films', model: FilmModel::class, associativeTable: 'film_character');
     }

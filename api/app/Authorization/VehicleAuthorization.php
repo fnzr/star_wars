@@ -4,7 +4,7 @@ namespace App\Authorization;
 
 use Orkester\MVC\MModel;
 use Orkester\Persistence\Criteria\RetrieveCriteria;
-use Orkester\Security\Authorization\IAuthorization;
+use Orkester\Authorization\IAuthorization;
 
 class VehicleAuthorization implements IAuthorization
 {

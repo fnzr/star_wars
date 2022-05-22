@@ -23,7 +23,8 @@ services:
     restart: "no"
   tests:
     <<: *base-api
-    entrypoint: "vendor/bin/phpunit --bootstrap tests/bootstrap.php tests"
+    entrypoint: "vendor/bin/phpunit tests"
+    restart: "no"
   #web:
   #  image: node:18-alpine3.14
   #  user: "node"
